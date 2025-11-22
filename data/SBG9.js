@@ -1,0 +1,28 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "SBG9.yaml",
+  "name": "Flow Sequence in Flow Mapping",
+  "from": "NimYAML tests",
+  "tags": [
+    "complex-key",
+    "sequence",
+    "mapping",
+    "flow"
+  ],
+  "cases": [
+    {
+      "name": "Flow Sequence in Flow Mapping",
+      "from": "NimYAML tests",
+      "tags": [
+        "complex-key",
+        "sequence",
+        "mapping",
+        "flow"
+      ],
+      "yaml": "{a: [b, c], [d, e]: f}\n",
+      "tree": "+STR\n +DOC\n  +MAP {}\n   =VAL :a\n   +SEQ []\n    =VAL :b\n    =VAL :c\n   -SEQ\n   +SEQ []\n    =VAL :d\n    =VAL :e\n   -SEQ\n   =VAL :f\n  -MAP\n -DOC\n-STR\n",
+      "dump": "a:\n- b\n- c\n? - d\n  - e\n: f\n"
+    }
+  ]
+}

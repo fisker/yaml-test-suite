@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "Q88A.yaml",
+  "name": "Spec Example 7.23. Flow Content",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2793163",
+  "tags": [
+    "spec",
+    "flow",
+    "sequence",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 7.23. Flow Content",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2793163",
+      "tags": [
+        "spec",
+        "flow",
+        "sequence",
+        "mapping"
+      ],
+      "yaml": "- [ a, b ]\n- { a: b }\n- \"a\"\n- 'b'\n- c\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   +SEQ []\n    =VAL :a\n    =VAL :b\n   -SEQ\n   +MAP {}\n    =VAL :a\n    =VAL :b\n   -MAP\n   =VAL \"a\n   =VAL 'b\n   =VAL :c\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  [\n    \"a\",\n    \"b\"\n  ],\n  {\n    \"a\": \"b\"\n  },\n  \"a\",\n  \"b\",\n  \"c\"\n]\n",
+      "dump": "- - a\n  - b\n- a: b\n- \"a\"\n- 'b'\n- c\n"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+// Generated file, do NOT edit
+
+declare const Test_RZP5: {
+  "filename": "RZP5.yaml",
+  "name": "Various Trailing Comments [1.3]",
+  "from": "XW4D, modified for YAML 1.3",
+  "tags": [
+    "anchor",
+    "comment",
+    "folded",
+    "mapping",
+    "1.3-mod"
+  ],
+  "cases": [
+    {
+      "name": "Various Trailing Comments [1.3]",
+      "from": "XW4D, modified for YAML 1.3",
+      "tags": [
+        "anchor",
+        "comment",
+        "folded",
+        "mapping",
+        "1.3-mod"
+      ],
+      "yaml": "a: \"double\n  quotes\" # lala\nb: plain\n value  # lala\nc  : #lala\n  d\n? # lala\n - seq1\n: # lala\n - #lala\n  seq2\ne: &node # lala\n - x: y\nblock: > # lala\n  abcde\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :a\n   =VAL \"double quotes\n   =VAL :b\n   =VAL :plain value\n   =VAL :c\n   =VAL :d\n   +SEQ\n    =VAL :seq1\n   -SEQ\n   +SEQ\n    =VAL :seq2\n   -SEQ\n   =VAL :e\n   +SEQ &node\n    +MAP\n     =VAL :x\n     =VAL :y\n    -MAP\n   -SEQ\n   =VAL :block\n   =VAL >abcde\\n\n  -MAP\n -DOC\n-STR\n",
+      "dump": "a: \"double quotes\"\nb: plain value\nc: d\n? - seq1\n: - seq2\ne: &node\n- x: y\nblock: >\n  abcde\n"
+    }
+  ]
+}
+
+export default Test_RZP5

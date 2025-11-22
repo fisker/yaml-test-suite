@@ -1,0 +1,34 @@
+// Generated file, do NOT edit
+
+declare const Test_6WLZ: {
+  "filename": "6WLZ.yaml",
+  "name": "Spec Example 6.18. Primary Tag Handle [1.3]",
+  "from": "9WXW, modified for YAML 1.3",
+  "tags": [
+    "local-tag",
+    "spec",
+    "directive",
+    "tag",
+    "1.3-mod"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 6.18. Primary Tag Handle [1.3]",
+      "from": "9WXW, modified for YAML 1.3",
+      "tags": [
+        "local-tag",
+        "spec",
+        "directive",
+        "tag",
+        "1.3-mod"
+      ],
+      "yaml": "# Private\n---\n!foo \"bar\"\n...\n# Global\n%TAG ! tag:example.com,2000:app/\n---\n!foo \"bar\"\n",
+      "tree": "+STR\n +DOC ---\n  =VAL <!foo> \"bar\n -DOC ...\n +DOC ---\n  =VAL <tag:example.com,2000:app/foo> \"bar\n -DOC\n-STR\n",
+      "json": "\"bar\"\n\"bar\"\n",
+      "dump": "---\n!foo \"bar\"\n...\n--- !<tag:example.com,2000:app/foo>\n\"bar\"\n",
+      "emit": "--- !foo \"bar\"\n...\n--- !<tag:example.com,2000:app/foo> \"bar\"\n"
+    }
+  ]
+}
+
+export default Test_6WLZ

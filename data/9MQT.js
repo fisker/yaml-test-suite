@@ -1,0 +1,33 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "9MQT.yaml",
+  "name": "Scalar doc with '...' in content",
+  "from": "@ingydotnet",
+  "tags": [
+    "double",
+    "scalar"
+  ],
+  "cases": [
+    {
+      "name": "Scalar doc with '...' in content",
+      "from": "@ingydotnet",
+      "tags": [
+        "double",
+        "scalar"
+      ],
+      "yaml": "--- \"a\n...x\nb\"\n",
+      "tree": "+STR\n +DOC ---\n  =VAL \"a ...x b\n -DOC\n-STR\n",
+      "json": "\"a ...x b\"\n",
+      "dump": "--- a ...x b\n",
+      "emit": "--- \"a ...x b\"\n"
+    },
+    {
+      "fail": true,
+      "yaml": "--- \"a\n... x\nb\"\n",
+      "tree": "+STR\n +DOC ---\n",
+      "dump": null,
+      "emit": null
+    }
+  ]
+}

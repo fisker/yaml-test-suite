@@ -1,0 +1,24 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "4ABK.yaml",
+  "name": "Flow Mapping Separate Values",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2791704",
+  "tags": [
+    "flow",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Flow Mapping Separate Values",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2791704",
+      "tags": [
+        "flow",
+        "mapping"
+      ],
+      "yaml": "{\nunquoted : \"separate\",\nhttp://foo.com,\nomitted value:,\n}\n",
+      "tree": "+STR\n +DOC\n  +MAP {}\n   =VAL :unquoted\n   =VAL \"separate\n   =VAL :http://foo.com\n   =VAL :\n   =VAL :omitted value\n   =VAL :\n  -MAP\n -DOC\n-STR\n",
+      "dump": "unquoted: \"separate\"\nhttp://foo.com: null\nomitted value: null\n"
+    }
+  ]
+}

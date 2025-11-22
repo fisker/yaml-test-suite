@@ -1,0 +1,25 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "33X3.yaml",
+  "name": "Three explicit integers in a block sequence",
+  "from": "IRC",
+  "tags": [
+    "sequence",
+    "tag"
+  ],
+  "cases": [
+    {
+      "name": "Three explicit integers in a block sequence",
+      "from": "IRC",
+      "tags": [
+        "sequence",
+        "tag"
+      ],
+      "yaml": "---\n- !!int 1\n- !!int -2\n- !!int 33\n",
+      "tree": "+STR\n +DOC ---\n  +SEQ\n   =VAL <tag:yaml.org,2002:int> :1\n   =VAL <tag:yaml.org,2002:int> :-2\n   =VAL <tag:yaml.org,2002:int> :33\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  1,\n  -2,\n  33\n]\n",
+      "dump": "---\n- !!int 1\n- !!int -2\n- !!int 33\n"
+    }
+  ]
+}

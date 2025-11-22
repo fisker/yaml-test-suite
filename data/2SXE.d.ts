@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+declare const Test_2SXE: {
+  "filename": "2SXE.yaml",
+  "name": "Anchors With Colon in Name",
+  "from": "Mailing List Discussion",
+  "tags": [
+    "alias",
+    "edge",
+    "mapping",
+    "1.3-err"
+  ],
+  "cases": [
+    {
+      "name": "Anchors With Colon in Name",
+      "from": "Mailing List Discussion",
+      "tags": [
+        "alias",
+        "edge",
+        "mapping",
+        "1.3-err"
+      ],
+      "yaml": "&a: key: &a value\nfoo:\n  *a:\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL &a: :key\n   =VAL &a :value\n   =VAL :foo\n   =ALI *a:\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"key\": \"value\",\n  \"foo\": \"key\"\n}\n",
+      "dump": "&a: key: &a value\nfoo: *a:\n"
+    }
+  ]
+}
+
+export default Test_2SXE

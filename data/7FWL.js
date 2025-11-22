@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "7FWL.yaml",
+  "name": "Spec Example 6.24. Verbatim Tags",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2784370",
+  "tags": [
+    "mapping",
+    "spec",
+    "tag",
+    "unknown-tag"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 6.24. Verbatim Tags",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2784370",
+      "tags": [
+        "mapping",
+        "spec",
+        "tag",
+        "unknown-tag"
+      ],
+      "yaml": "!<tag:yaml.org,2002:str> foo :\n  !<!bar> baz\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL <tag:yaml.org,2002:str> :foo\n   =VAL <!bar> :baz\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"foo\": \"baz\"\n}\n",
+      "dump": "!!str foo: !bar baz\n"
+    }
+  ]
+}

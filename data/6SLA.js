@@ -1,0 +1,27 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "6SLA.yaml",
+  "name": "Allowed characters in quoted mapping key",
+  "from": "@perlpunk",
+  "tags": [
+    "mapping",
+    "single",
+    "double"
+  ],
+  "cases": [
+    {
+      "name": "Allowed characters in quoted mapping key",
+      "from": "@perlpunk",
+      "tags": [
+        "mapping",
+        "single",
+        "double"
+      ],
+      "yaml": "\"foo\\nbar:baz\\tx \\\\$%^&*()x\": 23\n'x\\ny:z\\tx $%^&*()x': 24\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL \"foo\\nbar:baz\\tx \\\\$%^&*()x\n   =VAL :23\n   =VAL 'x\\\\ny:z\\\\tx $%^&*()x\n   =VAL :24\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"foo\\nbar:baz\\tx \\\\$%^&*()x\": 23,\n  \"x\\\\ny:z\\\\tx $%^&*()x\": 24\n}\n",
+      "dump": "? \"foo\\nbar:baz\\tx \\\\$%^&*()x\"\n: 23\n'x\\ny:z\\tx $%^&*()x': 24\n"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "K858.yaml",
+  "name": "Spec Example 8.6. Empty Scalar Chomping",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2795596",
+  "tags": [
+    "spec",
+    "folded",
+    "literal",
+    "whitespace"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 8.6. Empty Scalar Chomping",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2795596",
+      "tags": [
+        "spec",
+        "folded",
+        "literal",
+        "whitespace"
+      ],
+      "yaml": "strip: >-\n\nclip: >\n\nkeep: |+\n\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :strip\n   =VAL >\n   =VAL :clip\n   =VAL >\n   =VAL :keep\n   =VAL |\\n\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"strip\": \"\",\n  \"clip\": \"\",\n  \"keep\": \"\\n\"\n}\n",
+      "dump": "strip: \"\"\nclip: \"\"\nkeep: |2+\n\n...\n"
+    }
+  ]
+}

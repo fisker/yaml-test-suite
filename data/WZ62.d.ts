@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+declare const Test_WZ62: {
+  "filename": "WZ62.yaml",
+  "name": "Spec Example 7.2. Empty Content",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2786720",
+  "tags": [
+    "spec",
+    "flow",
+    "scalar",
+    "tag"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 7.2. Empty Content",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2786720",
+      "tags": [
+        "spec",
+        "flow",
+        "scalar",
+        "tag"
+      ],
+      "yaml": "{\n  foo : !!str,\n  !!str : bar,\n}\n",
+      "tree": "+STR\n +DOC\n  +MAP {}\n   =VAL :foo\n   =VAL <tag:yaml.org,2002:str> :\n   =VAL <tag:yaml.org,2002:str> :\n   =VAL :bar\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"foo\": \"\",\n  \"\": \"bar\"\n}\n",
+      "dump": "foo: !!str\n!!str : bar\n"
+    }
+  ]
+}
+
+export default Test_WZ62

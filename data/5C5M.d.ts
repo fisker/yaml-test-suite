@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+declare const Test_5C5M: {
+  "filename": "5C5M.yaml",
+  "name": "Spec Example 7.15. Flow Mappings",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2791018",
+  "tags": [
+    "spec",
+    "flow",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 7.15. Flow Mappings",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2791018",
+      "tags": [
+        "spec",
+        "flow",
+        "mapping"
+      ],
+      "yaml": "- { one : two , three: four , }\n- {five: six,seven : eight}\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   +MAP {}\n    =VAL :one\n    =VAL :two\n    =VAL :three\n    =VAL :four\n   -MAP\n   +MAP {}\n    =VAL :five\n    =VAL :six\n    =VAL :seven\n    =VAL :eight\n   -MAP\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  {\n    \"one\": \"two\",\n    \"three\": \"four\"\n  },\n  {\n    \"five\": \"six\",\n    \"seven\": \"eight\"\n  }\n]\n",
+      "dump": "- one: two\n  three: four\n- five: six\n  seven: eight\n"
+    }
+  ]
+}
+
+export default Test_5C5M

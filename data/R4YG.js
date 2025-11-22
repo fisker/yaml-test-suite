@@ -1,0 +1,35 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "R4YG.yaml",
+  "name": "Spec Example 8.2. Block Indentation Indicator",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2794311",
+  "tags": [
+    "spec",
+    "literal",
+    "folded",
+    "scalar",
+    "whitespace",
+    "libyaml-err",
+    "upto-1.2"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 8.2. Block Indentation Indicator",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2794311",
+      "tags": [
+        "spec",
+        "literal",
+        "folded",
+        "scalar",
+        "whitespace",
+        "libyaml-err",
+        "upto-1.2"
+      ],
+      "yaml": "- |\n detected\n- >\n \n  \n  # detected\n- |1\n  explicit\n- >\n \t\n detected\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   =VAL |detected\\n\n   =VAL >\\n\\n# detected\\n\n   =VAL | explicit\\n\n   =VAL >\\t\\ndetected\\n\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  \"detected\\n\",\n  \"\\n\\n# detected\\n\",\n  \" explicit\\n\",\n  \"\\t\\ndetected\\n\"\n]\n",
+      "dump": "- |\n  detected\n- >2\n\n\n  # detected\n- |2\n   explicit\n- \"\\t\\ndetected\\n\"\n"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+declare const Test_FP8R: {
+  "filename": "FP8R.yaml",
+  "name": "Zero indented block scalar",
+  "from": "@perlpunk",
+  "tags": [
+    "folded",
+    "indent",
+    "scalar"
+  ],
+  "cases": [
+    {
+      "name": "Zero indented block scalar",
+      "from": "@perlpunk",
+      "tags": [
+        "folded",
+        "indent",
+        "scalar"
+      ],
+      "yaml": "--- >\nline1\nline2\nline3\n",
+      "tree": "+STR\n +DOC ---\n  =VAL >line1 line2 line3\\n\n -DOC\n-STR\n",
+      "json": "\"line1 line2 line3\\n\"\n",
+      "dump": "--- >\n  line1 line2 line3\n"
+    }
+  ]
+}
+
+export default Test_FP8R

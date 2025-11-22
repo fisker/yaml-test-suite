@@ -1,0 +1,30 @@
+// Generated file, do NOT edit
+
+declare const Test_DFF7: {
+  "filename": "DFF7.yaml",
+  "name": "Spec Example 7.16. Flow Mapping Entries",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2791260",
+  "tags": [
+    "explicit-key",
+    "spec",
+    "flow",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 7.16. Flow Mapping Entries",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2791260",
+      "tags": [
+        "explicit-key",
+        "spec",
+        "flow",
+        "mapping"
+      ],
+      "yaml": "{\n? explicit: entry,\nimplicit: entry,\n?\n}\n",
+      "tree": "+STR\n +DOC\n  +MAP {}\n   =VAL :explicit\n   =VAL :entry\n   =VAL :implicit\n   =VAL :entry\n   =VAL :\n   =VAL :\n  -MAP\n -DOC\n-STR\n",
+      "dump": "explicit: entry\nimplicit: entry\n:\n"
+    }
+  ]
+}
+
+export default Test_DFF7

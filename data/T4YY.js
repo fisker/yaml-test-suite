@@ -1,0 +1,32 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "T4YY.yaml",
+  "name": "Spec Example 7.9. Single Quoted Lines [1.3]",
+  "from": "PRH3, modified for YAML 1.3",
+  "tags": [
+    "single",
+    "spec",
+    "scalar",
+    "whitespace",
+    "1.3-mod"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 7.9. Single Quoted Lines [1.3]",
+      "from": "PRH3, modified for YAML 1.3",
+      "tags": [
+        "single",
+        "spec",
+        "scalar",
+        "whitespace",
+        "1.3-mod"
+      ],
+      "yaml": "---\n' 1st non-empty\n\n 2nd non-empty \n 3rd non-empty '\n",
+      "tree": "+STR\n +DOC ---\n  =VAL ' 1st non-empty\\n2nd non-empty 3rd non-empty \n -DOC\n-STR\n",
+      "json": "\" 1st non-empty\\n2nd non-empty 3rd non-empty \"\n",
+      "dump": "' 1st non-empty\n\n  2nd non-empty 3rd non-empty '\n",
+      "emit": "--- ' 1st non-empty\n\n  2nd non-empty 3rd non-empty '\n"
+    }
+  ]
+}

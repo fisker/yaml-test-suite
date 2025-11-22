@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+declare const Test_M7A3: {
+  "filename": "M7A3.yaml",
+  "name": "Spec Example 9.3. Bare Documents",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2801226",
+  "tags": [
+    "spec",
+    "footer",
+    "1.3-err"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 9.3. Bare Documents",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2801226",
+      "tags": [
+        "spec",
+        "footer",
+        "1.3-err"
+      ],
+      "yaml": "Bare\ndocument\n...\n# No document\n...\n|\n%!PS-Adobe-2.0 # Not the first line\n",
+      "tree": "+STR\n +DOC\n  =VAL :Bare document\n -DOC ...\n +DOC\n  =VAL |%!PS-Adobe-2.0 # Not the first line\\n\n -DOC\n-STR\n",
+      "json": "\"Bare document\"\n\"%!PS-Adobe-2.0 # Not the first line\\n\"\n",
+      "emit": "Bare document\n...\n|\n  %!PS-Adobe-2.0 # Not the first line\n"
+    }
+  ]
+}
+
+export default Test_M7A3

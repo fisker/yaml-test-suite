@@ -1,0 +1,26 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "3GZX.yaml",
+  "name": "Spec Example 7.1. Alias Nodes",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2786448",
+  "tags": [
+    "mapping",
+    "spec",
+    "alias"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 7.1. Alias Nodes",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2786448",
+      "tags": [
+        "mapping",
+        "spec",
+        "alias"
+      ],
+      "yaml": "First occurrence: &anchor Foo\nSecond occurrence: *anchor\nOverride anchor: &anchor Bar\nReuse anchor: *anchor\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :First occurrence\n   =VAL &anchor :Foo\n   =VAL :Second occurrence\n   =ALI *anchor\n   =VAL :Override anchor\n   =VAL &anchor :Bar\n   =VAL :Reuse anchor\n   =ALI *anchor\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"First occurrence\": \"Foo\",\n  \"Second occurrence\": \"Foo\",\n  \"Override anchor\": \"Bar\",\n  \"Reuse anchor\": \"Bar\"\n}\n"
+    }
+  ]
+}

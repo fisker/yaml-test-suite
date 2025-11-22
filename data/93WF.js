@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "93WF.yaml",
+  "name": "Spec Example 6.6. Line Folding [1.3]",
+  "from": "K527, modified for YAML 1.3",
+  "tags": [
+    "folded",
+    "spec",
+    "whitespace",
+    "scalar",
+    "1.3-mod"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 6.6. Line Folding [1.3]",
+      "from": "K527, modified for YAML 1.3",
+      "tags": [
+        "folded",
+        "spec",
+        "whitespace",
+        "scalar",
+        "1.3-mod"
+      ],
+      "yaml": "--- >-\n  trimmed\n  \n \n\n  as\n  space\n",
+      "tree": "+STR\n +DOC ---\n  =VAL >trimmed\\n\\n\\nas space\n -DOC\n-STR\n",
+      "json": "\"trimmed\\n\\n\\nas space\"\n",
+      "dump": "--- >-\n  trimmed\n\n\n\n  as space\n"
+    }
+  ]
+}

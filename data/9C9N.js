@@ -1,0 +1,28 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "9C9N.yaml",
+  "name": "Wrong indented flow sequence",
+  "from": "@perlpunk",
+  "tags": [
+    "error",
+    "flow",
+    "indent",
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Wrong indented flow sequence",
+      "from": "@perlpunk",
+      "tags": [
+        "error",
+        "flow",
+        "indent",
+        "sequence"
+      ],
+      "fail": true,
+      "yaml": "---\nflow: [a,\nb,\nc]\n",
+      "tree": "+STR\n +DOC ---\n  +MAP\n   =VAL :flow\n   +SEQ []\n    =VAL :a\n"
+    }
+  ]
+}

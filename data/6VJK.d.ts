@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+declare const Test_6VJK: {
+  "filename": "6VJK.yaml",
+  "name": "Spec Example 2.15. Folded newlines are preserved for \"more indented\" and blank lines",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2761056",
+  "tags": [
+    "spec",
+    "folded",
+    "scalar",
+    "1.3-err"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 2.15. Folded newlines are preserved for \"more indented\" and blank lines",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2761056",
+      "tags": [
+        "spec",
+        "folded",
+        "scalar",
+        "1.3-err"
+      ],
+      "yaml": ">\n Sammy Sosa completed another\n fine season with great stats.\n\n   63 Home Runs\n   0.288 Batting Average\n\n What a year!\n",
+      "tree": "+STR\n +DOC\n  =VAL >Sammy Sosa completed another fine season with great stats.\\n\\n  63 Home Runs\\n  0.288 Batting Average\\n\\nWhat a year!\\n\n -DOC\n-STR\n",
+      "json": "\"Sammy Sosa completed another fine season with great stats.\\n\\n  63 Home Runs\\n  0.288 Batting Average\\n\\nWhat a year!\\n\"\n",
+      "dump": ">\n  Sammy Sosa completed another fine season with great stats.\n\n    63 Home Runs\n    0.288 Batting Average\n\n  What a year!\n"
+    }
+  ]
+}
+
+export default Test_6VJK

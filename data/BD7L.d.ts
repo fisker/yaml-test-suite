@@ -1,0 +1,28 @@
+// Generated file, do NOT edit
+
+declare const Test_BD7L: {
+  "filename": "BD7L.yaml",
+  "name": "Invalid mapping after sequence",
+  "from": "@perlpunk",
+  "tags": [
+    "error",
+    "mapping",
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Invalid mapping after sequence",
+      "from": "@perlpunk",
+      "tags": [
+        "error",
+        "mapping",
+        "sequence"
+      ],
+      "fail": true,
+      "yaml": "- item1\n- item2\ninvalid: x\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   =VAL :item1\n   =VAL :item2\n"
+    }
+  ]
+}
+
+export default Test_BD7L

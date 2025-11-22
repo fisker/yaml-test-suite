@@ -1,0 +1,37 @@
+// Generated file, do NOT edit
+
+declare const Test_4QFQ: {
+  "filename": "4QFQ.yaml",
+  "name": "Spec Example 8.2. Block Indentation Indicator [1.3]",
+  "from": "R4YG, modified for YAML 1.3",
+  "tags": [
+    "spec",
+    "literal",
+    "folded",
+    "scalar",
+    "libyaml-err",
+    "1.3-mod",
+    "whitespace"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 8.2. Block Indentation Indicator [1.3]",
+      "from": "R4YG, modified for YAML 1.3",
+      "tags": [
+        "spec",
+        "literal",
+        "folded",
+        "scalar",
+        "libyaml-err",
+        "1.3-mod",
+        "whitespace"
+      ],
+      "yaml": "- |\n detected\n- >\n \n  \n  # detected\n- |1\n  explicit\n- >\n detected\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   =VAL |detected\\n\n   =VAL >\\n\\n# detected\\n\n   =VAL | explicit\\n\n   =VAL >detected\\n\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  \"detected\\n\",\n  \"\\n\\n# detected\\n\",\n  \" explicit\\n\",\n  \"detected\\n\"\n]\n",
+      "emit": "- |\n  detected\n- >2\n\n\n  # detected\n- |2\n   explicit\n- >\n  detected\n"
+    }
+  ]
+}
+
+export default Test_4QFQ

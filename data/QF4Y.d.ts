@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+declare const Test_QF4Y: {
+  "filename": "QF4Y.yaml",
+  "name": "Spec Example 7.19. Single Pair Flow Mappings",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2792291",
+  "tags": [
+    "spec",
+    "flow",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 7.19. Single Pair Flow Mappings",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2792291",
+      "tags": [
+        "spec",
+        "flow",
+        "mapping"
+      ],
+      "yaml": "[\nfoo: bar\n]\n",
+      "tree": "+STR\n +DOC\n  +SEQ []\n   +MAP {}\n    =VAL :foo\n    =VAL :bar\n   -MAP\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  {\n    \"foo\": \"bar\"\n  }\n]\n",
+      "dump": "- foo: bar\n"
+    }
+  ]
+}
+
+export default Test_QF4Y

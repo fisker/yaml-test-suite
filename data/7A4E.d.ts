@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+declare const Test_7A4E: {
+  "filename": "7A4E.yaml",
+  "name": "Spec Example 7.6. Double Quoted Lines",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2787994",
+  "tags": [
+    "spec",
+    "scalar",
+    "upto-1.2",
+    "whitespace"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 7.6. Double Quoted Lines",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2787994",
+      "tags": [
+        "spec",
+        "scalar",
+        "upto-1.2",
+        "whitespace"
+      ],
+      "yaml": "\" 1st non-empty\n\n 2nd non-empty \n\t3rd non-empty \"\n",
+      "tree": "+STR\n +DOC\n  =VAL \" 1st non-empty\\n2nd non-empty 3rd non-empty \n -DOC\n-STR\n",
+      "json": "\" 1st non-empty\\n2nd non-empty 3rd non-empty \"\n",
+      "dump": "\" 1st non-empty\\n2nd non-empty 3rd non-empty \"\n"
+    }
+  ]
+}
+
+export default Test_7A4E

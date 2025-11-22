@@ -1,0 +1,27 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "MXS3.yaml",
+  "name": "Flow Mapping in Block Sequence",
+  "from": "NimYAML tests",
+  "tags": [
+    "mapping",
+    "sequence",
+    "flow"
+  ],
+  "cases": [
+    {
+      "name": "Flow Mapping in Block Sequence",
+      "from": "NimYAML tests",
+      "tags": [
+        "mapping",
+        "sequence",
+        "flow"
+      ],
+      "yaml": "- {a: b}\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   +MAP {}\n    =VAL :a\n    =VAL :b\n   -MAP\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  {\n    \"a\": \"b\"\n  }\n]\n",
+      "dump": "- a: b\n"
+    }
+  ]
+}

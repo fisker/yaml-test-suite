@@ -1,0 +1,25 @@
+// Generated file, do NOT edit
+
+declare const Test_M6YH: {
+  "filename": "M6YH.yaml",
+  "name": "Block sequence indentation",
+  "from": "@ingydotnet",
+  "tags": [
+    "indent"
+  ],
+  "cases": [
+    {
+      "name": "Block sequence indentation",
+      "from": "@ingydotnet",
+      "tags": [
+        "indent"
+      ],
+      "yaml": "- |\n x\n-\n foo: bar\n-\n - 42\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   =VAL |x\\n\n   +MAP\n    =VAL :foo\n    =VAL :bar\n   -MAP\n   +SEQ\n    =VAL :42\n   -SEQ\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  \"x\\n\",\n  {\n    \"foo\" : \"bar\"\n  },\n  [\n    42\n  ]\n]\n",
+      "dump": "- |\n  x\n- foo: bar\n- - 42\n"
+    }
+  ]
+}
+
+export default Test_M6YH

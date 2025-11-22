@@ -1,0 +1,26 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "9CWY.yaml",
+  "name": "Invalid scalar at the end of mapping",
+  "from": "@perlpunk",
+  "tags": [
+    "error",
+    "mapping",
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Invalid scalar at the end of mapping",
+      "from": "@perlpunk",
+      "tags": [
+        "error",
+        "mapping",
+        "sequence"
+      ],
+      "fail": true,
+      "yaml": "key:\n - item1\n - item2\ninvalid\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :key\n   +SEQ\n    =VAL :item1\n    =VAL :item2\n   -SEQ\n"
+    }
+  ]
+}

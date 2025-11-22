@@ -1,0 +1,24 @@
+// Generated file, do NOT edit
+
+declare const Test_65WH: {
+  "filename": "65WH.yaml",
+  "name": "Single Entry Block Sequence",
+  "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/sequence.tml",
+  "tags": [
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Single Entry Block Sequence",
+      "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/sequence.tml",
+      "tags": [
+        "sequence"
+      ],
+      "yaml": "- foo\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   =VAL :foo\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  \"foo\"\n]\n"
+    }
+  ]
+}
+
+export default Test_65WH

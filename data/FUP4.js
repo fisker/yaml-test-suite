@@ -1,0 +1,25 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "FUP4.yaml",
+  "name": "Flow Sequence in Flow Sequence",
+  "from": "NimYAML tests",
+  "tags": [
+    "sequence",
+    "flow"
+  ],
+  "cases": [
+    {
+      "name": "Flow Sequence in Flow Sequence",
+      "from": "NimYAML tests",
+      "tags": [
+        "sequence",
+        "flow"
+      ],
+      "yaml": "[a, [b, c]]\n",
+      "tree": "+STR\n +DOC\n  +SEQ []\n   =VAL :a\n   +SEQ []\n    =VAL :b\n    =VAL :c\n   -SEQ\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  \"a\",\n  [\n    \"b\",\n    \"c\"\n  ]\n]\n",
+      "dump": "- a\n- - b\n  - c\n"
+    }
+  ]
+}

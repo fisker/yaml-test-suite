@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+declare const Test_K3WX: {
+  "filename": "K3WX.yaml",
+  "name": "Colon and adjacent value after comment on next line",
+  "from": "<Source URL or description>",
+  "tags": [
+    "comment",
+    "flow",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Colon and adjacent value after comment on next line",
+      "from": "<Source URL or description>",
+      "tags": [
+        "comment",
+        "flow",
+        "mapping"
+      ],
+      "yaml": "---\n{ \"foo\" # comment\n  :bar }\n",
+      "tree": "+STR\n +DOC ---\n  +MAP {}\n   =VAL \"foo\n   =VAL :bar\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"foo\": \"bar\"\n}\n",
+      "dump": "---\n\"foo\": bar\n"
+    }
+  ]
+}
+
+export default Test_K3WX

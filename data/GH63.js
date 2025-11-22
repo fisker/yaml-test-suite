@@ -1,0 +1,25 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "GH63.yaml",
+  "name": "Mixed Block Mapping (explicit to implicit)",
+  "from": "NimYAML tests",
+  "tags": [
+    "explicit-key",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Mixed Block Mapping (explicit to implicit)",
+      "from": "NimYAML tests",
+      "tags": [
+        "explicit-key",
+        "mapping"
+      ],
+      "yaml": "? a\n: 1.3\nfifteen: d\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :a\n   =VAL :1.3\n   =VAL :fifteen\n   =VAL :d\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"a\": 1.3,\n  \"fifteen\": \"d\"\n}\n",
+      "dump": "a: 1.3\nfifteen: d\n"
+    }
+  ]
+}

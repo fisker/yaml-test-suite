@@ -1,0 +1,36 @@
+// Generated file, do NOT edit
+
+declare const Test_DWX9: {
+  "filename": "DWX9.yaml",
+  "name": "Spec Example 8.8. Literal Content",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2796118",
+  "tags": [
+    "spec",
+    "literal",
+    "scalar",
+    "comment",
+    "whitespace",
+    "1.3-err"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 8.8. Literal Content",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2796118",
+      "tags": [
+        "spec",
+        "literal",
+        "scalar",
+        "comment",
+        "whitespace",
+        "1.3-err"
+      ],
+      "yaml": "|\n \n  \n  literal\n   \n  \n  text\n\n # Comment\n",
+      "tree": "+STR\n +DOC\n  =VAL |\\n\\nliteral\\n \\n\\ntext\\n\n -DOC\n-STR\n",
+      "json": "\"\\n\\nliteral\\n \\n\\ntext\\n\"\n",
+      "dump": "\"\\n\\nliteral\\n \\n\\ntext\\n\"\n",
+      "emit": "|\n\n\n  literal\n   \n\n  text\n"
+    }
+  ]
+}
+
+export default Test_DWX9

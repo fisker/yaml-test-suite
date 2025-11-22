@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+declare const Test_27NA: {
+  "filename": "27NA.yaml",
+  "name": "Spec Example 5.9. Directive Indicator",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2774058",
+  "tags": [
+    "spec",
+    "directive",
+    "1.3-err"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 5.9. Directive Indicator",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2774058",
+      "tags": [
+        "spec",
+        "directive",
+        "1.3-err"
+      ],
+      "yaml": "%YAML 1.2\n--- text\n",
+      "tree": "+STR\n +DOC ---\n  =VAL :text\n -DOC\n-STR\n",
+      "json": "\"text\"\n",
+      "dump": "--- text\n"
+    }
+  ]
+}
+
+export default Test_27NA

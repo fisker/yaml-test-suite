@@ -1,0 +1,27 @@
+// Generated file, do NOT edit
+
+declare const Test_P94K: {
+  "filename": "P94K.yaml",
+  "name": "Spec Example 6.11. Multi-Line Comments",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2780696",
+  "tags": [
+    "spec",
+    "comment"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 6.11. Multi-Line Comments",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2780696",
+      "tags": [
+        "spec",
+        "comment"
+      ],
+      "yaml": "key:    # Comment\n        # lines\n  value\n\n\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :key\n   =VAL :value\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"key\": \"value\"\n}\n",
+      "dump": "key: value\n"
+    }
+  ]
+}
+
+export default Test_P94K

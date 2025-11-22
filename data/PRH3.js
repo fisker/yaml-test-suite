@@ -1,0 +1,32 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "PRH3.yaml",
+  "name": "Spec Example 7.9. Single Quoted Lines",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2788756",
+  "tags": [
+    "single",
+    "spec",
+    "scalar",
+    "whitespace",
+    "upto-1.2"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 7.9. Single Quoted Lines",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2788756",
+      "tags": [
+        "single",
+        "spec",
+        "scalar",
+        "whitespace",
+        "upto-1.2"
+      ],
+      "yaml": "' 1st non-empty\n\n 2nd non-empty \n\t3rd non-empty '\n",
+      "tree": "+STR\n +DOC\n  =VAL ' 1st non-empty\\n2nd non-empty 3rd non-empty \n -DOC\n-STR\n",
+      "json": "\" 1st non-empty\\n2nd non-empty 3rd non-empty \"\n",
+      "dump": "' 1st non-empty\n\n  2nd non-empty 3rd non-empty '\n",
+      "emit": "' 1st non-empty\n\n  2nd non-empty 3rd non-empty '\n"
+    }
+  ]
+}

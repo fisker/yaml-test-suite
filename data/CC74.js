@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "CC74.yaml",
+  "name": "Spec Example 6.20. Tag Handles",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2783195",
+  "tags": [
+    "spec",
+    "directive",
+    "tag",
+    "unknown-tag"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 6.20. Tag Handles",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2783195",
+      "tags": [
+        "spec",
+        "directive",
+        "tag",
+        "unknown-tag"
+      ],
+      "yaml": "%TAG !e! tag:example.com,2000:app/\n---\n!e!foo \"bar\"\n",
+      "tree": "+STR\n +DOC ---\n  =VAL <tag:example.com,2000:app/foo> \"bar\n -DOC\n-STR\n",
+      "json": "\"bar\"\n",
+      "dump": "--- !<tag:example.com,2000:app/foo> \"bar\"\n"
+    }
+  ]
+}

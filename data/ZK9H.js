@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "ZK9H.yaml",
+  "name": "Nested top level flow mapping",
+  "from": "@perlpunk",
+  "tags": [
+    "flow",
+    "indent",
+    "mapping",
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Nested top level flow mapping",
+      "from": "@perlpunk",
+      "tags": [
+        "flow",
+        "indent",
+        "mapping",
+        "sequence"
+      ],
+      "yaml": "{ key: [[[\n  value\n ]]]\n}\n",
+      "tree": "+STR\n +DOC\n  +MAP {}\n   =VAL :key\n   +SEQ []\n    +SEQ []\n     +SEQ []\n      =VAL :value\n     -SEQ\n    -SEQ\n   -SEQ\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"key\": [\n    [\n      [\n        \"value\"\n      ]\n    ]\n  ]\n}\n",
+      "dump": "key:\n- - - value\n"
+    }
+  ]
+}

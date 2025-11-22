@@ -1,0 +1,28 @@
+// Generated file, do NOT edit
+
+declare const Test_CFD4: {
+  "filename": "CFD4.yaml",
+  "name": "Empty implicit key in single pair flow sequences",
+  "from": "@perlpunk",
+  "tags": [
+    "empty-key",
+    "flow",
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Empty implicit key in single pair flow sequences",
+      "from": "@perlpunk",
+      "tags": [
+        "empty-key",
+        "flow",
+        "sequence"
+      ],
+      "yaml": "- [ : empty key ]\n- [: another empty key]\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   +SEQ []\n    +MAP {}\n     =VAL :\n     =VAL :empty key\n    -MAP\n   -SEQ\n   +SEQ []\n    +MAP {}\n     =VAL :\n     =VAL :another empty key\n    -MAP\n   -SEQ\n  -SEQ\n -DOC\n-STR\n",
+      "dump": "- - : empty key\n- - : another empty key\n"
+    }
+  ]
+}
+
+export default Test_CFD4

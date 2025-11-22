@@ -1,0 +1,28 @@
+// Generated file, do NOT edit
+
+declare const Test_Q4CL: {
+  "filename": "Q4CL.yaml",
+  "name": "Trailing content after quoted value",
+  "from": "@perlpunk",
+  "tags": [
+    "error",
+    "mapping",
+    "double"
+  ],
+  "cases": [
+    {
+      "name": "Trailing content after quoted value",
+      "from": "@perlpunk",
+      "tags": [
+        "error",
+        "mapping",
+        "double"
+      ],
+      "fail": true,
+      "yaml": "key1: \"quoted1\"\nkey2: \"quoted2\" trailing content\nkey3: \"quoted3\"\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :key1\n   =VAL \"quoted1\n   =VAL :key2\n   =VAL \"quoted2\n"
+    }
+  ]
+}
+
+export default Test_Q4CL

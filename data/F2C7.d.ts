@@ -1,0 +1,27 @@
+// Generated file, do NOT edit
+
+declare const Test_F2C7: {
+  "filename": "F2C7.yaml",
+  "name": "Anchors and Tags",
+  "from": "NimYAML tests",
+  "tags": [
+    "anchor",
+    "tag"
+  ],
+  "cases": [
+    {
+      "name": "Anchors and Tags",
+      "from": "NimYAML tests",
+      "tags": [
+        "anchor",
+        "tag"
+      ],
+      "yaml": " - &a !!str a\n - !!int 2\n - !!int &c 4\n - &d d\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   =VAL &a <tag:yaml.org,2002:str> :a\n   =VAL <tag:yaml.org,2002:int> :2\n   =VAL &c <tag:yaml.org,2002:int> :4\n   =VAL &d :d\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  \"a\",\n  2,\n  4,\n  \"d\"\n]\n",
+      "dump": "- &a !!str a\n- !!int 2\n- &c !!int 4\n- &d d\n"
+    }
+  ]
+}
+
+export default Test_F2C7

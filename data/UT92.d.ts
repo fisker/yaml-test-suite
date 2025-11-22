@@ -1,0 +1,33 @@
+// Generated file, do NOT edit
+
+declare const Test_UT92: {
+  "filename": "UT92.yaml",
+  "name": "Spec Example 9.4. Explicit Documents",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2801448",
+  "tags": [
+    "flow",
+    "spec",
+    "header",
+    "footer",
+    "comment"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 9.4. Explicit Documents",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2801448",
+      "tags": [
+        "flow",
+        "spec",
+        "header",
+        "footer",
+        "comment"
+      ],
+      "yaml": "---\n{ matches\n% : 20 }\n...\n---\n# Empty\n...\n",
+      "tree": "+STR\n +DOC ---\n  +MAP {}\n   =VAL :matches %\n   =VAL :20\n  -MAP\n -DOC ...\n +DOC ---\n  =VAL :\n -DOC ...\n-STR\n",
+      "json": "{\n  \"matches %\": 20\n}\nnull\n",
+      "dump": "---\nmatches %: 20\n...\n---\n...\n"
+    }
+  ]
+}
+
+export default Test_UT92

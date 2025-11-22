@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+declare const Test_BU8L: {
+  "filename": "BU8L.yaml",
+  "name": "Node Anchor and Tag on Seperate Lines",
+  "from": "https://gist.github.com/anonymous/f192e7dab6da31831f264dbf1947cb83 via @ingydotnet",
+  "tags": [
+    "anchor",
+    "indent",
+    "1.3-err",
+    "tag"
+  ],
+  "cases": [
+    {
+      "name": "Node Anchor and Tag on Seperate Lines",
+      "from": "https://gist.github.com/anonymous/f192e7dab6da31831f264dbf1947cb83 via @ingydotnet",
+      "tags": [
+        "anchor",
+        "indent",
+        "1.3-err",
+        "tag"
+      ],
+      "yaml": "key: &anchor\n !!map\n  a: b\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :key\n   +MAP &anchor <tag:yaml.org,2002:map>\n    =VAL :a\n    =VAL :b\n   -MAP\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"key\": {\n    \"a\": \"b\"\n  }\n}\n",
+      "dump": "key: &anchor !!map\n  a: b\n"
+    }
+  ]
+}
+
+export default Test_BU8L

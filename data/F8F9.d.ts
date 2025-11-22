@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+declare const Test_F8F9: {
+  "filename": "F8F9.yaml",
+  "name": "Spec Example 8.5. Chomping Trailing Lines",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2795435",
+  "tags": [
+    "spec",
+    "literal",
+    "scalar",
+    "comment"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 8.5. Chomping Trailing Lines",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2795435",
+      "tags": [
+        "spec",
+        "literal",
+        "scalar",
+        "comment"
+      ],
+      "yaml": " # Strip\n  # Comments:\nstrip: |-\n  # text\n  \n # Clip\n  # comments:\n\nclip: |\n  # text\n \n # Keep\n  # comments:\n\nkeep: |+\n  # text\n\n # Trail\n  # comments.\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :strip\n   =VAL |# text\n   =VAL :clip\n   =VAL |# text\\n\n   =VAL :keep\n   =VAL |# text\\n\\n\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"strip\": \"# text\",\n  \"clip\": \"# text\\n\",\n  \"keep\": \"# text\\n\\n\"\n}\n",
+      "dump": "strip: |-\n  # text\nclip: |\n  # text\nkeep: |+\n  # text\n\n...\n"
+    }
+  ]
+}
+
+export default Test_F8F9

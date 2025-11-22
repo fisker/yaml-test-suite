@@ -1,0 +1,26 @@
+// Generated file, do NOT edit
+
+declare const Test_W5VH: {
+  "filename": "W5VH.yaml",
+  "name": "Allowed characters in alias",
+  "from": "@perlpunk",
+  "tags": [
+    "alias",
+    "1.3-err"
+  ],
+  "cases": [
+    {
+      "name": "Allowed characters in alias",
+      "from": "@perlpunk",
+      "tags": [
+        "alias",
+        "1.3-err"
+      ],
+      "yaml": "a: &:@*!$\"<foo>: scalar a\nb: *:@*!$\"<foo>:\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :a\n   =VAL &:@*!$\"<foo>: :scalar a\n   =VAL :b\n   =ALI *:@*!$\"<foo>:\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"a\": \"scalar a\",\n  \"b\": \"scalar a\"\n}\n"
+    }
+  ]
+}
+
+export default Test_W5VH

@@ -1,0 +1,23 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "3MYT.yaml",
+  "name": "Plain Scalar looking like key, comment, anchor and tag",
+  "from": "https://gist.github.com/anonymous/a98d50ce42a59b1e999552bea7a31f57 via @ingydotnet",
+  "tags": [
+    "scalar"
+  ],
+  "cases": [
+    {
+      "name": "Plain Scalar looking like key, comment, anchor and tag",
+      "from": "https://gist.github.com/anonymous/a98d50ce42a59b1e999552bea7a31f57 via @ingydotnet",
+      "tags": [
+        "scalar"
+      ],
+      "yaml": "---\nk:#foo\n &a !t s\n",
+      "tree": "+STR\n +DOC ---\n  =VAL :k:#foo &a !t s\n -DOC\n-STR\n",
+      "json": "\"k:#foo &a !t s\"\n",
+      "dump": "--- k:#foo &a !t s\n"
+    }
+  ]
+}

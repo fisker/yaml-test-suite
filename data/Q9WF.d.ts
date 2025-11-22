@@ -1,0 +1,34 @@
+// Generated file, do NOT edit
+
+declare const Test_Q9WF: {
+  "filename": "Q9WF.yaml",
+  "name": "Spec Example 6.12. Separation Spaces",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2780989",
+  "tags": [
+    "complex-key",
+    "flow",
+    "spec",
+    "comment",
+    "whitespace",
+    "1.3-err"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 6.12. Separation Spaces",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2780989",
+      "tags": [
+        "complex-key",
+        "flow",
+        "spec",
+        "comment",
+        "whitespace",
+        "1.3-err"
+      ],
+      "yaml": "{ first: Sammy, last: Sosa }:\n# Statistics:\n  hr:  # Home runs\n     65\n  avg: # Average\n   0.278\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   +MAP {}\n    =VAL :first\n    =VAL :Sammy\n    =VAL :last\n    =VAL :Sosa\n   -MAP\n   +MAP\n    =VAL :hr\n    =VAL :65\n    =VAL :avg\n    =VAL :0.278\n   -MAP\n  -MAP\n -DOC\n-STR\n",
+      "dump": "? first: Sammy\n  last: Sosa\n: hr: 65\n  avg: 0.278\n"
+    }
+  ]
+}
+
+export default Test_Q9WF

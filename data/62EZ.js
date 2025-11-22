@@ -1,0 +1,26 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "62EZ.yaml",
+  "name": "Invalid block mapping key on same line as previous key",
+  "from": "@perlpunk",
+  "tags": [
+    "error",
+    "flow",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Invalid block mapping key on same line as previous key",
+      "from": "@perlpunk",
+      "tags": [
+        "error",
+        "flow",
+        "mapping"
+      ],
+      "fail": true,
+      "yaml": "---\nx: { y: z }in: valid\n",
+      "tree": "+STR\n +DOC ---\n  +MAP\n   =VAL :x\n   +MAP {}\n    =VAL :y\n    =VAL :z\n   -MAP\n"
+    }
+  ]
+}

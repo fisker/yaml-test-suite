@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "P2AD.yaml",
+  "name": "Spec Example 8.1. Block Scalar Header",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2793888",
+  "tags": [
+    "spec",
+    "literal",
+    "folded",
+    "comment",
+    "scalar"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 8.1. Block Scalar Header",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2793888",
+      "tags": [
+        "spec",
+        "literal",
+        "folded",
+        "comment",
+        "scalar"
+      ],
+      "yaml": "- | # Empty header↓\n literal\n- >1 # Indentation indicator↓\n  folded\n- |+ # Chomping indicator↓\n keep\n\n- >1- # Both indicators↓\n  strip\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   =VAL |literal\\n\n   =VAL > folded\\n\n   =VAL |keep\\n\\n\n   =VAL > strip\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  \"literal\\n\",\n  \" folded\\n\",\n  \"keep\\n\\n\",\n  \" strip\"\n]\n",
+      "dump": "- |\n  literal\n- >2\n   folded\n- |+\n  keep\n\n- >2-\n   strip\n"
+    }
+  ]
+}

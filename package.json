@@ -1,0 +1,64 @@
+{
+  "name": "yaml-test-suite",
+  "version": "0.0.0",
+  "description": "Test Suite for YAML.",
+  "homepage": "https://github.com/fisker/yaml-test-suite#readme",
+  "bugs": {
+    "url": "https://github.com/fisker/yaml-test-suite/issues"
+  },
+  "repository": "fisker/yaml-test-suite",
+  "funding": "https://github.com/fisker/yaml-test-suite?sponsor=1",
+  "license": "MIT",
+  "author": {
+    "name": "fisker Cheung",
+    "email": "lionkay@gmail.com",
+    "url": "https://www.fiskercheung.com/"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "exports": "./index.js",
+  "main": "index.js",
+  "scripts": {
+    "update": "node ./scripts/build.js",
+    "clean": "run-p \"clean:*\"",
+    "clean:dist": "del-cli dist",
+    "dist": "run-p \"dist:*\"",
+    "dist:npm": "np --yolo --no-yarn",
+    "fix": "run-p --continue-on-error \"fix:*\"",
+    "fix:eslint": "yarn lint:eslint --fix",
+    "fix:markdown": "yarn lint:markdown --fix",
+    "fix:package-json": "sort-package-json \"package.json\" \"packages/*/package.json\"",
+    "fix:prettier": "prettier . --write",
+    "lint": "run-p --continue-on-error \"lint:*\"",
+    "lint:eslint": "eslint .",
+    "lint:markdown": "markdownlint-cli2",
+    "lint:package-json": "yarn run fix:package-json --check",
+    "lint:prettier": "prettier . --check",
+    "prepare": "husky install",
+    "test": "node --test",
+    "test-coverage": "c8 yarn test"
+  },
+  "devDependencies": {
+    "@fisker/eslint-config": "15.2.0",
+    "@fisker/lint-staged-config": "3.3.5",
+    "@fisker/markdownlint-cli2-config": "0.0.3",
+    "@fisker/prettier-config": "5.2.0",
+    "adm-zip": "^0.5.16",
+    "del-cli": "7.0.0",
+    "eslint": "9.39.1",
+    "husky": "9.1.7",
+    "lint-staged": "16.2.7",
+    "markdownlint-cli2": "0.19.1",
+    "npm-run-all2": "8.0.4",
+    "outdent": "^0.8.0",
+    "prettier": "3.6.2",
+    "sort-package-json": "3.4.0",
+    "yaml": "^2.8.1",
+    "yazl": "^3.3.1"
+  },
+  "packageManager": "yarn@4.11.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

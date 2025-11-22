@@ -1,0 +1,26 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "8XDJ.yaml",
+  "name": "Comment in plain multiline value",
+  "from": "https://gist.github.com/anonymous/deeb1ace28d5bf21fb56d80c13e2dc69 via @ingydotnet",
+  "tags": [
+    "error",
+    "comment",
+    "scalar"
+  ],
+  "cases": [
+    {
+      "name": "Comment in plain multiline value",
+      "from": "https://gist.github.com/anonymous/deeb1ace28d5bf21fb56d80c13e2dc69 via @ingydotnet",
+      "tags": [
+        "error",
+        "comment",
+        "scalar"
+      ],
+      "fail": true,
+      "yaml": "key: word1\n#  xxx\n  word2\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :key\n   =VAL :word1\n"
+    }
+  ]
+}

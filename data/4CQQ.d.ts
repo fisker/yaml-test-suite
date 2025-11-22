@@ -1,0 +1,27 @@
+// Generated file, do NOT edit
+
+declare const Test_4CQQ: {
+  "filename": "4CQQ.yaml",
+  "name": "Spec Example 2.18. Multi-line Flow Scalars",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2761268",
+  "tags": [
+    "spec",
+    "scalar"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 2.18. Multi-line Flow Scalars",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2761268",
+      "tags": [
+        "spec",
+        "scalar"
+      ],
+      "yaml": "plain:\n  This unquoted scalar\n  spans many lines.\n\nquoted: \"So does this\n  quoted scalar.\\n\"\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :plain\n   =VAL :This unquoted scalar spans many lines.\n   =VAL :quoted\n   =VAL \"So does this quoted scalar.\\n\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"plain\": \"This unquoted scalar spans many lines.\",\n  \"quoted\": \"So does this quoted scalar.\\n\"\n}\n",
+      "dump": "plain: This unquoted scalar spans many lines.\nquoted: \"So does this quoted scalar.\\n\"\n"
+    }
+  ]
+}
+
+export default Test_4CQQ

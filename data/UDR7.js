@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "UDR7.yaml",
+  "name": "Spec Example 5.4. Flow Collection Indicators",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2772813",
+  "tags": [
+    "spec",
+    "flow",
+    "sequence",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 5.4. Flow Collection Indicators",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2772813",
+      "tags": [
+        "spec",
+        "flow",
+        "sequence",
+        "mapping"
+      ],
+      "yaml": "sequence: [ one, two, ]\nmapping: { sky: blue, sea: green }\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :sequence\n   +SEQ []\n    =VAL :one\n    =VAL :two\n   -SEQ\n   =VAL :mapping\n   +MAP {}\n    =VAL :sky\n    =VAL :blue\n    =VAL :sea\n    =VAL :green\n   -MAP\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"sequence\": [\n    \"one\",\n    \"two\"\n  ],\n  \"mapping\": {\n    \"sky\": \"blue\",\n    \"sea\": \"green\"\n  }\n}\n",
+      "dump": "sequence:\n- one\n- two\nmapping:\n  sky: blue\n  sea: green\n"
+    }
+  ]
+}

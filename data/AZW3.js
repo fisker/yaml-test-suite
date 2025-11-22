@@ -1,0 +1,24 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "AZW3.yaml",
+  "name": "Lookahead test cases",
+  "from": "NimYAML tests",
+  "tags": [
+    "mapping",
+    "edge"
+  ],
+  "cases": [
+    {
+      "name": "Lookahead test cases",
+      "from": "NimYAML tests",
+      "tags": [
+        "mapping",
+        "edge"
+      ],
+      "yaml": "- bla\"keks: foo\n- bla]keks: foo\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   +MAP\n    =VAL :bla\"keks\n    =VAL :foo\n   -MAP\n   +MAP\n    =VAL :bla]keks\n    =VAL :foo\n   -MAP\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  {\n    \"bla\\\"keks\": \"foo\"\n  },\n  {\n    \"bla]keks\": \"foo\"\n  }\n]\n"
+    }
+  ]
+}

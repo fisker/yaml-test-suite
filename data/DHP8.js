@@ -1,0 +1,25 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "DHP8.yaml",
+  "name": "Flow Sequence",
+  "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/sequence.tml",
+  "tags": [
+    "flow",
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Flow Sequence",
+      "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/sequence.tml",
+      "tags": [
+        "flow",
+        "sequence"
+      ],
+      "yaml": "[foo, bar, 42]\n",
+      "tree": "+STR\n +DOC\n  +SEQ []\n   =VAL :foo\n   =VAL :bar\n   =VAL :42\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  \"foo\",\n  \"bar\",\n  42\n]\n",
+      "dump": "- foo\n- bar\n- 42\n"
+    }
+  ]
+}

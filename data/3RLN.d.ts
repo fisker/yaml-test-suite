@@ -1,0 +1,57 @@
+// Generated file, do NOT edit
+
+declare const Test_3RLN: {
+  "filename": "3RLN.yaml",
+  "name": "Leading tabs in double quoted",
+  "from": "@ingydotnet",
+  "tags": [
+    "double",
+    "whitespace"
+  ],
+  "cases": [
+    {
+      "name": "Leading tabs in double quoted",
+      "from": "@ingydotnet",
+      "tags": [
+        "double",
+        "whitespace"
+      ],
+      "yaml": "\"1 leading\n    \\ttab\"\n",
+      "tree": "+STR\n +DOC\n  =VAL \"1 leading \\ttab\n -DOC\n-STR\n",
+      "json": "\"1 leading \\ttab\"\n",
+      "emit": "\"1 leading \\ttab\"\n"
+    },
+    {
+      "yaml": "\"2 leading\n    \\\ttab\"\n",
+      "tree": "+STR\n +DOC\n  =VAL \"2 leading \\ttab\n -DOC\n-STR\n",
+      "json": "\"2 leading \\ttab\"\n",
+      "emit": "\"2 leading \\ttab\"\n"
+    },
+    {
+      "yaml": "\"3 leading\n    \ttab\"\n",
+      "tree": "+STR\n +DOC\n  =VAL \"3 leading tab\n -DOC\n-STR\n",
+      "json": "\"3 leading tab\"\n",
+      "emit": "\"3 leading tab\"\n"
+    },
+    {
+      "yaml": "\"4 leading\n    \\t  tab\"\n",
+      "tree": "+STR\n +DOC\n  =VAL \"4 leading \\t  tab\n -DOC\n-STR\n",
+      "json": "\"4 leading \\t  tab\"\n",
+      "emit": "\"4 leading \\t  tab\"\n"
+    },
+    {
+      "yaml": "\"5 leading\n    \\\t  tab\"\n",
+      "tree": "+STR\n +DOC\n  =VAL \"5 leading \\t  tab\n -DOC\n-STR\n",
+      "json": "\"5 leading \\t  tab\"\n",
+      "emit": "\"5 leading \\t  tab\"\n"
+    },
+    {
+      "yaml": "\"6 leading\n    \t  tab\"\n",
+      "tree": "+STR\n +DOC\n  =VAL \"6 leading tab\n -DOC\n-STR\n",
+      "json": "\"6 leading tab\"\n",
+      "emit": "\"6 leading tab\"\n"
+    }
+  ]
+}
+
+export default Test_3RLN

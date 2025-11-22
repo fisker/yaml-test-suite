@@ -1,0 +1,28 @@
+// Generated file, do NOT edit
+
+declare const Test_9MMW: {
+  "filename": "9MMW.yaml",
+  "name": "Single Pair Implicit Entries",
+  "from": "@perlpunk, Spec Example 7.21",
+  "tags": [
+    "flow",
+    "mapping",
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Single Pair Implicit Entries",
+      "from": "@perlpunk, Spec Example 7.21",
+      "tags": [
+        "flow",
+        "mapping",
+        "sequence"
+      ],
+      "yaml": "- [ YAML : separate ]\n- [ \"JSON like\":adjacent ]\n- [ {JSON: like}:adjacent ]\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   +SEQ []\n    +MAP {}\n     =VAL :YAML\n     =VAL :separate\n    -MAP\n   -SEQ\n   +SEQ []\n    +MAP {}\n     =VAL \"JSON like\n     =VAL :adjacent\n    -MAP\n   -SEQ\n   +SEQ []\n    +MAP {}\n     +MAP {}\n      =VAL :JSON\n      =VAL :like\n     -MAP\n     =VAL :adjacent\n    -MAP\n   -SEQ\n  -SEQ\n -DOC\n-STR\n",
+      "dump": "- - YAML: separate\n- - \"JSON like\": adjacent\n- - ? JSON: like\n    : adjacent\n"
+    }
+  ]
+}
+
+export default Test_9MMW

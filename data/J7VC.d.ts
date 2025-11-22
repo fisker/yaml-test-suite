@@ -1,0 +1,27 @@
+// Generated file, do NOT edit
+
+declare const Test_J7VC: {
+  "filename": "J7VC.yaml",
+  "name": "Empty Lines Between Mapping Elements",
+  "from": "NimYAML tests",
+  "tags": [
+    "whitespace",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Empty Lines Between Mapping Elements",
+      "from": "NimYAML tests",
+      "tags": [
+        "whitespace",
+        "mapping"
+      ],
+      "yaml": "one: 2\n\n\nthree: 4\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :one\n   =VAL :2\n   =VAL :three\n   =VAL :4\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"one\": 2,\n  \"three\": 4\n}\n",
+      "dump": "one: 2\nthree: 4\n"
+    }
+  ]
+}
+
+export default Test_J7VC

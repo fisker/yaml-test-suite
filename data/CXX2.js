@@ -1,0 +1,28 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "CXX2.yaml",
+  "name": "Mapping with anchor on document start line",
+  "from": "@perlpunk",
+  "tags": [
+    "anchor",
+    "error",
+    "header",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Mapping with anchor on document start line",
+      "from": "@perlpunk",
+      "tags": [
+        "anchor",
+        "error",
+        "header",
+        "mapping"
+      ],
+      "fail": true,
+      "yaml": "--- &anchor a: b\n",
+      "tree": "+STR\n +DOC ---\n"
+    }
+  ]
+}

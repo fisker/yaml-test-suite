@@ -1,0 +1,30 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "LX3P.yaml",
+  "name": "Implicit Flow Mapping Key on one line",
+  "from": "@perlpunk",
+  "tags": [
+    "complex-key",
+    "mapping",
+    "flow",
+    "sequence",
+    "1.3-err"
+  ],
+  "cases": [
+    {
+      "name": "Implicit Flow Mapping Key on one line",
+      "from": "@perlpunk",
+      "tags": [
+        "complex-key",
+        "mapping",
+        "flow",
+        "sequence",
+        "1.3-err"
+      ],
+      "yaml": "[flow]: block\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   +SEQ []\n    =VAL :flow\n   -SEQ\n   =VAL :block\n  -MAP\n -DOC\n-STR\n",
+      "dump": "? - flow\n: block\n"
+    }
+  ]
+}

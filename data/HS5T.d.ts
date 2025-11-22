@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+declare const Test_HS5T: {
+  "filename": "HS5T.yaml",
+  "name": "Spec Example 7.12. Plain Lines",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2789986",
+  "tags": [
+    "spec",
+    "scalar",
+    "whitespace",
+    "upto-1.2"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 7.12. Plain Lines",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2789986",
+      "tags": [
+        "spec",
+        "scalar",
+        "whitespace",
+        "upto-1.2"
+      ],
+      "yaml": "1st non-empty\n\n 2nd non-empty \n\t3rd non-empty\n",
+      "tree": "+STR\n +DOC\n  =VAL :1st non-empty\\n2nd non-empty 3rd non-empty\n -DOC\n-STR\n",
+      "json": "\"1st non-empty\\n2nd non-empty 3rd non-empty\"\n",
+      "dump": "'1st non-empty\n\n  2nd non-empty 3rd non-empty'\n"
+    }
+  ]
+}
+
+export default Test_HS5T

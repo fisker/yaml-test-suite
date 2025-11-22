@@ -1,0 +1,25 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "52DL.yaml",
+  "name": "Explicit Non-Specific Tag [1.3]",
+  "from": "8MK2, modified for YAML 1.3",
+  "tags": [
+    "tag",
+    "1.3-mod"
+  ],
+  "cases": [
+    {
+      "name": "Explicit Non-Specific Tag [1.3]",
+      "from": "8MK2, modified for YAML 1.3",
+      "tags": [
+        "tag",
+        "1.3-mod"
+      ],
+      "yaml": "---\n! a\n",
+      "tree": "+STR\n +DOC ---\n  =VAL <!> :a\n -DOC\n-STR\n",
+      "json": "\"a\"\n",
+      "dump": "--- ! a\n"
+    }
+  ]
+}

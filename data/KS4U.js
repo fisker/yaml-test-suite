@@ -1,0 +1,26 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "KS4U.yaml",
+  "name": "Invalid item after end of flow sequence",
+  "from": "@perlpunk",
+  "tags": [
+    "error",
+    "flow",
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Invalid item after end of flow sequence",
+      "from": "@perlpunk",
+      "tags": [
+        "error",
+        "flow",
+        "sequence"
+      ],
+      "fail": true,
+      "yaml": "---\n[\nsequence item\n]\ninvalid item\n",
+      "tree": "+STR\n +DOC ---\n  +SEQ []\n   =VAL :sequence item\n  -SEQ\n"
+    }
+  ]
+}

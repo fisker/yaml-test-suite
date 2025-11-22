@@ -1,0 +1,25 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "8KB6.yaml",
+  "name": "Multiline plain flow mapping key without value",
+  "from": "@perlpunk",
+  "tags": [
+    "flow",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Multiline plain flow mapping key without value",
+      "from": "@perlpunk",
+      "tags": [
+        "flow",
+        "mapping"
+      ],
+      "yaml": "---\n- { single line, a: b}\n- { multi\n  line, a: b}\n",
+      "tree": "+STR\n +DOC ---\n  +SEQ\n   +MAP {}\n    =VAL :single line\n    =VAL :\n    =VAL :a\n    =VAL :b\n   -MAP\n   +MAP {}\n    =VAL :multi line\n    =VAL :\n    =VAL :a\n    =VAL :b\n   -MAP\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  {\n    \"single line\": null,\n    \"a\": \"b\"\n  },\n  {\n    \"multi line\": null,\n    \"a\": \"b\"\n  }\n]\n",
+      "dump": "---\n- single line:\n  a: b\n- multi line:\n  a: b\n"
+    }
+  ]
+}

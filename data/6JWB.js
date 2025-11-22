@@ -1,0 +1,27 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "6JWB.yaml",
+  "name": "Tags for Block Objects",
+  "from": "NimYAML tests",
+  "tags": [
+    "mapping",
+    "sequence",
+    "tag"
+  ],
+  "cases": [
+    {
+      "name": "Tags for Block Objects",
+      "from": "NimYAML tests",
+      "tags": [
+        "mapping",
+        "sequence",
+        "tag"
+      ],
+      "yaml": "foo: !!seq\n  - !!str a\n  - !!map\n    key: !!str value\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :foo\n   +SEQ <tag:yaml.org,2002:seq>\n    =VAL <tag:yaml.org,2002:str> :a\n    +MAP <tag:yaml.org,2002:map>\n     =VAL :key\n     =VAL <tag:yaml.org,2002:str> :value\n    -MAP\n   -SEQ\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"foo\": [\n    \"a\",\n    {\n      \"key\": \"value\"\n    }\n  ]\n}\n",
+      "dump": "foo: !!seq\n- !!str a\n- !!map\n  key: !!str value\n"
+    }
+  ]
+}

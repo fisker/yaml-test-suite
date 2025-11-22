@@ -1,0 +1,22 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "3ALJ.yaml",
+  "name": "Block Sequence in Block Sequence",
+  "from": "NimYAML tests",
+  "tags": [
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Block Sequence in Block Sequence",
+      "from": "NimYAML tests",
+      "tags": [
+        "sequence"
+      ],
+      "yaml": "- - s1_i1\n  - s1_i2\n- s2\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   +SEQ\n    =VAL :s1_i1\n    =VAL :s1_i2\n   -SEQ\n   =VAL :s2\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  [\n    \"s1_i1\",\n    \"s1_i2\"\n  ],\n  \"s2\"\n]\n"
+    }
+  ]
+}

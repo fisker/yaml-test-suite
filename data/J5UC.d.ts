@@ -1,0 +1,24 @@
+// Generated file, do NOT edit
+
+declare const Test_J5UC: {
+  "filename": "J5UC.yaml",
+  "name": "Multiple Pair Block Mapping",
+  "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/mapping.tml",
+  "tags": [
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Multiple Pair Block Mapping",
+      "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/mapping.tml",
+      "tags": [
+        "mapping"
+      ],
+      "yaml": "foo: blue\nbar: arrr\nbaz: jazz\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :foo\n   =VAL :blue\n   =VAL :bar\n   =VAL :arrr\n   =VAL :baz\n   =VAL :jazz\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"foo\": \"blue\",\n  \"bar\": \"arrr\",\n  \"baz\": \"jazz\"\n}\n"
+    }
+  ]
+}
+
+export default Test_J5UC

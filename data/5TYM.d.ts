@@ -1,0 +1,30 @@
+// Generated file, do NOT edit
+
+declare const Test_5TYM: {
+  "filename": "5TYM.yaml",
+  "name": "Spec Example 6.21. Local Tag Prefix",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2783499",
+  "tags": [
+    "local-tag",
+    "spec",
+    "directive",
+    "tag"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 6.21. Local Tag Prefix",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2783499",
+      "tags": [
+        "local-tag",
+        "spec",
+        "directive",
+        "tag"
+      ],
+      "yaml": "%TAG !m! !my-\n--- # Bulb here\n!m!light fluorescent\n...\n%TAG !m! !my-\n--- # Color here\n!m!light green\n",
+      "tree": "+STR\n +DOC ---\n  =VAL <!my-light> :fluorescent\n -DOC ...\n +DOC ---\n  =VAL <!my-light> :green\n -DOC\n-STR\n",
+      "json": "\"fluorescent\"\n\"green\"\n"
+    }
+  ]
+}
+
+export default Test_5TYM

@@ -1,0 +1,32 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "6WPF.yaml",
+  "name": "Spec Example 6.8. Flow Folding [1.3]",
+  "from": "TL85, modified for YAML 1.3",
+  "tags": [
+    "double",
+    "spec",
+    "whitespace",
+    "scalar",
+    "1.3-mod"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 6.8. Flow Folding [1.3]",
+      "from": "TL85, modified for YAML 1.3",
+      "tags": [
+        "double",
+        "spec",
+        "whitespace",
+        "scalar",
+        "1.3-mod"
+      ],
+      "yaml": "---\n\"\n  foo \n \n    bar\n\n  baz\n\"\n",
+      "tree": "+STR\n +DOC ---\n  =VAL \" foo\\nbar\\nbaz \n -DOC\n-STR\n",
+      "json": "\" foo\\nbar\\nbaz \"\n",
+      "dump": "\" foo\\nbar\\nbaz \"\n",
+      "emit": "--- \" foo\\nbar\\nbaz \"\n"
+    }
+  ]
+}

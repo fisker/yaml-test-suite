@@ -1,0 +1,30 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "9HCY.yaml",
+  "name": "Need document footer before directives",
+  "from": "@ingydotnet",
+  "tags": [
+    "directive",
+    "error",
+    "footer",
+    "tag",
+    "unknown-tag"
+  ],
+  "cases": [
+    {
+      "name": "Need document footer before directives",
+      "from": "@ingydotnet",
+      "tags": [
+        "directive",
+        "error",
+        "footer",
+        "tag",
+        "unknown-tag"
+      ],
+      "fail": true,
+      "yaml": "!foo \"bar\"\n%TAG ! tag:example.com,2000:app/\n---\n!foo \"bar\"\n",
+      "tree": "+STR\n +DOC\n  =VAL <!foo> \"bar\n"
+    }
+  ]
+}

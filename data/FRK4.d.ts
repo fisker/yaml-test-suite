@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+declare const Test_FRK4: {
+  "filename": "FRK4.yaml",
+  "name": "Spec Example 7.3. Completely Empty Flow Nodes",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2786868",
+  "tags": [
+    "empty-key",
+    "explicit-key",
+    "spec",
+    "flow",
+    "mapping"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 7.3. Completely Empty Flow Nodes",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2786868",
+      "tags": [
+        "empty-key",
+        "explicit-key",
+        "spec",
+        "flow",
+        "mapping"
+      ],
+      "yaml": "{\n  ? foo :,\n  : bar,\n}\n",
+      "tree": "+STR\n +DOC\n  +MAP {}\n   =VAL :foo\n   =VAL :\n   =VAL :\n   =VAL :bar\n  -MAP\n -DOC\n-STR\n"
+    }
+  ]
+}
+
+export default Test_FRK4

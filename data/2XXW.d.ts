@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+declare const Test_2XXW: {
+  "filename": "2XXW.yaml",
+  "name": "Spec Example 2.25. Unordered Sets",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2761758",
+  "tags": [
+    "spec",
+    "mapping",
+    "unknown-tag",
+    "explicit-key"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 2.25. Unordered Sets",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2761758",
+      "tags": [
+        "spec",
+        "mapping",
+        "unknown-tag",
+        "explicit-key"
+      ],
+      "yaml": "# Sets are represented as a\n# Mapping where each key is\n# associated with a null value\n--- !!set\n? Mark McGwire\n? Sammy Sosa\n? Ken Griff\n",
+      "tree": "+STR\n +DOC ---\n  +MAP <tag:yaml.org,2002:set>\n   =VAL :Mark McGwire\n   =VAL :\n   =VAL :Sammy Sosa\n   =VAL :\n   =VAL :Ken Griff\n   =VAL :\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"Mark McGwire\": null,\n  \"Sammy Sosa\": null,\n  \"Ken Griff\": null\n}\n",
+      "dump": "--- !!set\nMark McGwire:\nSammy Sosa:\nKen Griff:\n"
+    }
+  ]
+}
+
+export default Test_2XXW

@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+declare const Test_NAT4: {
+  "filename": "NAT4.yaml",
+  "name": "Various empty or newline only quoted strings",
+  "from": "@perlpunk",
+  "tags": [
+    "double",
+    "scalar",
+    "single",
+    "whitespace"
+  ],
+  "cases": [
+    {
+      "name": "Various empty or newline only quoted strings",
+      "from": "@perlpunk",
+      "tags": [
+        "double",
+        "scalar",
+        "single",
+        "whitespace"
+      ],
+      "yaml": "---\na: '\n  '\nb: '  \n  '\nc: \"\n  \"\nd: \"  \n  \"\ne: '\n\n  '\nf: \"\n\n  \"\ng: '\n\n\n  '\nh: \"\n\n\n  \"\n",
+      "tree": "+STR\n +DOC ---\n  +MAP\n   =VAL :a\n   =VAL ' \n   =VAL :b\n   =VAL ' \n   =VAL :c\n   =VAL \" \n   =VAL :d\n   =VAL \" \n   =VAL :e\n   =VAL '\\n\n   =VAL :f\n   =VAL \"\\n\n   =VAL :g\n   =VAL '\\n\\n\n   =VAL :h\n   =VAL \"\\n\\n\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"a\": \" \",\n  \"b\": \" \",\n  \"c\": \" \",\n  \"d\": \" \",\n  \"e\": \"\\n\",\n  \"f\": \"\\n\",\n  \"g\": \"\\n\\n\",\n  \"h\": \"\\n\\n\"\n}\n",
+      "emit": "---\na: ' '\nb: ' '\nc: \" \"\nd: \" \"\ne: '\n\n  '\nf: \"\\n\"\ng: '\n\n\n  '\nh: \"\\n\\n\"\n"
+    }
+  ]
+}
+
+export default Test_NAT4

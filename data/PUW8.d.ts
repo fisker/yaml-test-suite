@@ -1,0 +1,25 @@
+// Generated file, do NOT edit
+
+declare const Test_PUW8: {
+  "filename": "PUW8.yaml",
+  "name": "Document start on last line",
+  "from": "@perlpunk",
+  "tags": [
+    "header"
+  ],
+  "cases": [
+    {
+      "name": "Document start on last line",
+      "from": "@perlpunk",
+      "tags": [
+        "header"
+      ],
+      "yaml": "---\na: b\n---\n",
+      "tree": "+STR\n +DOC ---\n  +MAP\n   =VAL :a\n   =VAL :b\n  -MAP\n -DOC\n +DOC ---\n  =VAL :\n -DOC\n-STR\n",
+      "json": "{\n  \"a\": \"b\"\n}\nnull\n",
+      "dump": "---\na: b\n---\n...\n"
+    }
+  ]
+}
+
+export default Test_PUW8

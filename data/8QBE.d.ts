@@ -1,0 +1,27 @@
+// Generated file, do NOT edit
+
+declare const Test_8QBE: {
+  "filename": "8QBE.yaml",
+  "name": "Block Sequence in Block Mapping",
+  "from": "NimYAML tests",
+  "tags": [
+    "mapping",
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Block Sequence in Block Mapping",
+      "from": "NimYAML tests",
+      "tags": [
+        "mapping",
+        "sequence"
+      ],
+      "yaml": "key:\n - item1\n - item2\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :key\n   +SEQ\n    =VAL :item1\n    =VAL :item2\n   -SEQ\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"key\": [\n    \"item1\",\n    \"item2\"\n  ]\n}\n",
+      "dump": "key:\n- item1\n- item2\n"
+    }
+  ]
+}
+
+export default Test_8QBE

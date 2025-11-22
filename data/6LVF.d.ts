@@ -1,0 +1,33 @@
+// Generated file, do NOT edit
+
+declare const Test_6LVF: {
+  "filename": "6LVF.yaml",
+  "name": "Spec Example 6.13. Reserved Directives",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2781445",
+  "tags": [
+    "spec",
+    "directive",
+    "header",
+    "double",
+    "1.3-err"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 6.13. Reserved Directives",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2781445",
+      "tags": [
+        "spec",
+        "directive",
+        "header",
+        "double",
+        "1.3-err"
+      ],
+      "yaml": "%FOO  bar baz # Should be ignored\n              # with a warning.\n--- \"foo\"\n",
+      "tree": "+STR\n +DOC ---\n  =VAL \"foo\n -DOC\n-STR\n",
+      "json": "\"foo\"\n",
+      "dump": "--- \"foo\"\n"
+    }
+  ]
+}
+
+export default Test_6LVF

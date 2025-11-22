@@ -1,0 +1,26 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "QLJ7.yaml",
+  "name": "Tag shorthand used in documents but only defined in the first",
+  "from": "IRC",
+  "tags": [
+    "error",
+    "directive",
+    "tag"
+  ],
+  "cases": [
+    {
+      "name": "Tag shorthand used in documents but only defined in the first",
+      "from": "IRC",
+      "tags": [
+        "error",
+        "directive",
+        "tag"
+      ],
+      "fail": true,
+      "yaml": "%TAG !prefix! tag:example.com,2011:\n--- !prefix!A\na: b\n--- !prefix!B\nc: d\n--- !prefix!C\ne: f\n",
+      "tree": "+STR\n +DOC ---\n  +MAP <tag:example.com,2011:A>\n   =VAL :a\n   =VAL :b\n  -MAP\n -DOC\n +DOC ---\n"
+    }
+  ]
+}

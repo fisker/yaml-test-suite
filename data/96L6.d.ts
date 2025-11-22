@@ -1,0 +1,29 @@
+// Generated file, do NOT edit
+
+declare const Test_96L6: {
+  "filename": "96L6.yaml",
+  "name": "Spec Example 2.14. In the folded scalars, newlines become spaces",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2761032",
+  "tags": [
+    "spec",
+    "folded",
+    "scalar"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 2.14. In the folded scalars, newlines become spaces",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2761032",
+      "tags": [
+        "spec",
+        "folded",
+        "scalar"
+      ],
+      "yaml": "--- >\n  Mark McGwire's\n  year was crippled\n  by a knee injury.\n",
+      "tree": "+STR\n +DOC ---\n  =VAL >Mark McGwire's year was crippled by a knee injury.\\n\n -DOC\n-STR\n",
+      "json": "\"Mark McGwire's year was crippled by a knee injury.\\n\"\n",
+      "dump": "--- >\n  Mark McGwire's year was crippled by a knee injury.\n"
+    }
+  ]
+}
+
+export default Test_96L6

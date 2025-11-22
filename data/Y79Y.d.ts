@@ -1,0 +1,72 @@
+// Generated file, do NOT edit
+
+declare const Test_Y79Y: {
+  "filename": "Y79Y.yaml",
+  "name": "Tabs in various contexts",
+  "from": "@ingydotnet",
+  "tags": [
+    "whitespace"
+  ],
+  "cases": [
+    {
+      "name": "Tabs in various contexts",
+      "from": "@ingydotnet",
+      "tags": [
+        "whitespace"
+      ],
+      "fail": true,
+      "yaml": "foo: |\n\t\nbar: 1\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :foo\n"
+    },
+    {
+      "yaml": "foo: |\n \t\nbar: 1\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :foo\n   =VAL |\\t\\n\n   =VAL :bar\n   =VAL :1\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"foo\": \"\\t\\n\",\n  \"bar\": 1\n}\n",
+      "dump": "foo: |\n  \t\nbar: 1\n"
+    },
+    {
+      "yaml": "- [\n\t\n foo\n ]\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   +SEQ []\n    =VAL :foo\n   -SEQ\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  [\n    \"foo\"\n  ]\n]\n",
+      "dump": "- - foo\n"
+    },
+    {
+      "fail": true,
+      "yaml": "- [\n\tfoo,\n foo\n ]\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   +SEQ []\n",
+      "json": null
+    },
+    {
+      "fail": true,
+      "yaml": "-\t-\n"
+    },
+    {
+      "fail": true,
+      "yaml": "- \t-\n"
+    },
+    {
+      "fail": true,
+      "yaml": "?\t-\n"
+    },
+    {
+      "fail": true,
+      "yaml": "? -\n:\t-\n"
+    },
+    {
+      "fail": true,
+      "yaml": "?\tkey:\n"
+    },
+    {
+      "fail": true,
+      "yaml": "? key:\n:\tkey:\n"
+    },
+    {
+      "yaml": "-\t-1\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   =VAL :-1\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  -1\n]\n",
+      "dump": "- -1\n"
+    }
+  ]
+}
+
+export default Test_Y79Y

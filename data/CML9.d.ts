@@ -1,0 +1,28 @@
+// Generated file, do NOT edit
+
+declare const Test_CML9: {
+  "filename": "CML9.yaml",
+  "name": "Missing comma in flow",
+  "from": "ihttps://gist.github.com/anonymous/4ba3365607cc14b4f656e391b45bf4f4 via @ingydotnet",
+  "tags": [
+    "error",
+    "flow",
+    "comment"
+  ],
+  "cases": [
+    {
+      "name": "Missing comma in flow",
+      "from": "ihttps://gist.github.com/anonymous/4ba3365607cc14b4f656e391b45bf4f4 via @ingydotnet",
+      "tags": [
+        "error",
+        "flow",
+        "comment"
+      ],
+      "fail": true,
+      "yaml": "key: [ word1\n#  xxx\n  word2 ]\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :key\n   +SEQ []\n    =VAL :word1\n"
+    }
+  ]
+}
+
+export default Test_CML9

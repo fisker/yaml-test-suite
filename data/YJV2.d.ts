@@ -1,0 +1,26 @@
+// Generated file, do NOT edit
+
+declare const Test_YJV2: {
+  "filename": "YJV2.yaml",
+  "name": "Dash in flow sequence",
+  "from": "@ingydotnet",
+  "tags": [
+    "flow",
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Dash in flow sequence",
+      "from": "@ingydotnet",
+      "tags": [
+        "flow",
+        "sequence"
+      ],
+      "fail": true,
+      "yaml": "[-]\n",
+      "tree": "+STR\n +DOC\n  +SEQ []\n"
+    }
+  ]
+}
+
+export default Test_YJV2

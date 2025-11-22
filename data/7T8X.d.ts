@@ -1,0 +1,33 @@
+// Generated file, do NOT edit
+
+declare const Test_7T8X: {
+  "filename": "7T8X.yaml",
+  "name": "Spec Example 8.10. Folded Lines - 8.13. Final Empty Lines",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2796543",
+  "tags": [
+    "spec",
+    "folded",
+    "scalar",
+    "comment",
+    "1.3-err"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 8.10. Folded Lines - 8.13. Final Empty Lines",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2796543",
+      "tags": [
+        "spec",
+        "folded",
+        "scalar",
+        "comment",
+        "1.3-err"
+      ],
+      "yaml": ">\n\n folded\n line\n\n next\n line\n   * bullet\n\n   * list\n   * lines\n\n last\n line\n\n# Comment\n",
+      "tree": "+STR\n +DOC\n  =VAL >\\nfolded line\\nnext line\\n  * bullet\\n\\n  * list\\n  * lines\\n\\nlast line\\n\n -DOC\n-STR\n",
+      "json": "\"\\nfolded line\\nnext line\\n  * bullet\\n\\n  * list\\n  * lines\\n\\nlast line\\n\"\n",
+      "dump": ">\n\n  folded line\n\n  next line\n    * bullet\n\n    * list\n    * lines\n\n  last line\n"
+    }
+  ]
+}
+
+export default Test_7T8X

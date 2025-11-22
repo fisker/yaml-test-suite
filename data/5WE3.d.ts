@@ -1,0 +1,35 @@
+// Generated file, do NOT edit
+
+declare const Test_5WE3: {
+  "filename": "5WE3.yaml",
+  "name": "Spec Example 8.17. Explicit Block Mapping Entries",
+  "from": "http://www.yaml.org/spec/1.2/spec.html#id2798425",
+  "tags": [
+    "explicit-key",
+    "spec",
+    "mapping",
+    "comment",
+    "literal",
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Spec Example 8.17. Explicit Block Mapping Entries",
+      "from": "http://www.yaml.org/spec/1.2/spec.html#id2798425",
+      "tags": [
+        "explicit-key",
+        "spec",
+        "mapping",
+        "comment",
+        "literal",
+        "sequence"
+      ],
+      "yaml": "? explicit key # Empty value\n? |\n  block key\n: - one # Explicit compact\n  - two # block value\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :explicit key\n   =VAL :\n   =VAL |block key\\n\n   +SEQ\n    =VAL :one\n    =VAL :two\n   -SEQ\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"explicit key\": null,\n  \"block key\\n\": [\n    \"one\",\n    \"two\"\n  ]\n}\n",
+      "dump": "explicit key:\n? |\n  block key\n: - one\n  - two\n"
+    }
+  ]
+}
+
+export default Test_5WE3

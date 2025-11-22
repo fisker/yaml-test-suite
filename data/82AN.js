@@ -1,0 +1,25 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "82AN.yaml",
+  "name": "Three dashes and content without space",
+  "from": "@perlpunk",
+  "tags": [
+    "scalar",
+    "1.3-err"
+  ],
+  "cases": [
+    {
+      "name": "Three dashes and content without space",
+      "from": "@perlpunk",
+      "tags": [
+        "scalar",
+        "1.3-err"
+      ],
+      "yaml": "---word1\nword2\n",
+      "tree": "+STR\n +DOC\n  =VAL :---word1 word2\n -DOC\n-STR\n",
+      "json": "\"---word1 word2\"\n",
+      "dump": "'---word1 word2'\n"
+    }
+  ]
+}

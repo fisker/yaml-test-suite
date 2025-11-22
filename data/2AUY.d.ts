@@ -1,0 +1,27 @@
+// Generated file, do NOT edit
+
+declare const Test_2AUY: {
+  "filename": "2AUY.yaml",
+  "name": "Tags in Block Sequence",
+  "from": "NimYAML tests",
+  "tags": [
+    "tag",
+    "sequence"
+  ],
+  "cases": [
+    {
+      "name": "Tags in Block Sequence",
+      "from": "NimYAML tests",
+      "tags": [
+        "tag",
+        "sequence"
+      ],
+      "yaml": " - !!str a\n - b\n - !!int 42\n - d\n",
+      "tree": "+STR\n +DOC\n  +SEQ\n   =VAL <tag:yaml.org,2002:str> :a\n   =VAL :b\n   =VAL <tag:yaml.org,2002:int> :42\n   =VAL :d\n  -SEQ\n -DOC\n-STR\n",
+      "json": "[\n  \"a\",\n  \"b\",\n  42,\n  \"d\"\n]\n",
+      "dump": "- !!str a\n- b\n- !!int 42\n- d\n"
+    }
+  ]
+}
+
+export default Test_2AUY

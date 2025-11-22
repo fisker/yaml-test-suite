@@ -1,0 +1,28 @@
+// Generated file, do NOT edit
+
+declare const Test_EB22: {
+  "filename": "EB22.yaml",
+  "name": "Missing document-end marker before directive",
+  "from": "@perlpunk",
+  "tags": [
+    "error",
+    "directive",
+    "footer"
+  ],
+  "cases": [
+    {
+      "name": "Missing document-end marker before directive",
+      "from": "@perlpunk",
+      "tags": [
+        "error",
+        "directive",
+        "footer"
+      ],
+      "fail": true,
+      "yaml": "---\nscalar1 # comment\n%YAML 1.2\n---\nscalar2\n",
+      "tree": "+STR\n +DOC ---\n  =VAL :scalar1\n -DOC\n"
+    }
+  ]
+}
+
+export default Test_EB22

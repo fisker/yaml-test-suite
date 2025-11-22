@@ -1,0 +1,31 @@
+// Generated file, do NOT edit
+
+export default {
+  "filename": "VJP3.yaml",
+  "name": "Flow collections over many lines",
+  "from": "@ingydotnet",
+  "tags": [
+    "flow",
+    "indent"
+  ],
+  "cases": [
+    {
+      "name": "Flow collections over many lines",
+      "from": "@ingydotnet",
+      "tags": [
+        "flow",
+        "indent"
+      ],
+      "fail": true,
+      "yaml": "k: {\nk\n:\nv\n}\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :k\n   +MAP {}\n"
+    },
+    {
+      "yaml": "k: {\n k\n :\n v\n }\n",
+      "tree": "+STR\n +DOC\n  +MAP\n   =VAL :k\n   +MAP {}\n    =VAL :k\n    =VAL :v\n   -MAP\n  -MAP\n -DOC\n-STR\n",
+      "json": "{\n  \"k\" : {\n    \"k\" : \"v\"\n  }\n}\n",
+      "dump": "---\nk:\n  k: v\n",
+      "emit": "k:\n  k: v\n"
+    }
+  ]
+}
