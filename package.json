@@ -30,6 +30,7 @@
     "data/*"
   ],
   "scripts": {
+    "build": "node ./scripts/build.js",
     "clean": "run-p \"clean:*\"",
     "clean:dist": "del-cli dist",
     "dist": "run-p \"dist:*\"",
@@ -49,7 +50,8 @@
     "test": "run-p test:js test:types",
     "test-coverage": "c8 yarn test",
     "test:js": "node --test",
-    "test:types": "tsd"
+    "test:types": "tsd",
+    "update": "yarn build"
   },
   "c8": {
     "include": [

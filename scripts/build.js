@@ -136,6 +136,9 @@ const data = Array.from(getData(), (file) => {
   }
 })
 
+// TODO: Use `'${name}'` when we drop support for Node.js v14
+const toSpecifier = (name) => `$${name}`
+
 await Promise.all([
   ...data.map(({filenameBase, data}) => {
     const stringifiedData = JSON.stringify(data, undefined, 2)
@@ -166,7 +169,7 @@ await Promise.all([
     data
       .map(
         ({filenameBase}) =>
-          `export type {default as '${filenameBase}'} from './${filenameBase}.js'`,
+          `export type {default as ${toSpecifier(filenameBase)}} from './${filenameBase}.js'`,
       )
       .join('\n'),
   ),
@@ -176,7 +179,7 @@ await Promise.all([
     data
       .map(
         ({filenameBase}) =>
-          `export {default as '${filenameBase}'} from './${filenameBase}.js'`,
+          `export {default as ${toSpecifier(filenameBase)}} from './${filenameBase}.js'`,
       )
       .join('\n'),
   ),
@@ -185,7 +188,7 @@ await Promise.all([
     new URL('../index.d.ts', import.meta.url),
     outdent`
       import {
-      ${data.map(({filenameBase}) => `  '${filenameBase}' as Test_${filenameBase},`).join('\n')}
+      ${data.map(({filenameBase}) => `  ${toSpecifier(filenameBase)} as Test_${filenameBase},`).join('\n')}
       } from './data/index.js'
 
       declare const Suite: readonly [
