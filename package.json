@@ -1,6 +1,6 @@
 {
   "name": "yaml-test-suite",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Test Suite for YAML.",
   "homepage": "https://github.com/fisker/yaml-test-suite#readme",
   "bugs": {
