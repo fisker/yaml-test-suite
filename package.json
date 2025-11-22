@@ -38,12 +38,23 @@
     "test-coverage": "c8 yarn test",
     "update": "node ./scripts/build.js"
   },
+  "c8": {
+    "include": [
+      "index.js",
+      "data/index.js"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  },
   "devDependencies": {
     "@fisker/eslint-config": "15.2.0",
     "@fisker/lint-staged-config": "3.3.5",
     "@fisker/markdownlint-cli2-config": "0.0.3",
     "@fisker/prettier-config": "5.2.0",
     "adm-zip": "^0.5.16",
+    "c8": "10.1.3",
     "del-cli": "7.0.0",
     "eslint": "9.39.1",
     "husky": "9.1.7",
