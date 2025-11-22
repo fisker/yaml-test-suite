@@ -38,7 +38,10 @@ async function writeRawFile(file, content) {
 }
 
 function writeTextFile(file, content) {
-  return writeRawFile(file, '// Generated file, do NOT edit' + '\n\n' + content + '\n')
+  return writeRawFile(
+    file,
+    '// Generated file, do NOT edit' + '\n\n' + content + '\n',
+  )
 }
 
 function* readZipFile(file, filter) {
