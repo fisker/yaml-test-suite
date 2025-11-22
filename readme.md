@@ -24,9 +24,9 @@ yarn add yaml-test-suite
 ## Usage
 
 ```js
-import * as yamlTestSuite from 'yaml-test-suite'
+import yamlTestSuite from 'yaml-test-suite'
 
-console.log(Object.values(yamlTestSuite))
+console.log(yamlTestSuite)
 // =>
 // [
 //   {
