@@ -16,13 +16,24 @@
   },
   "sideEffects": false,
   "type": "module",
-  "exports": "./index.js",
-  "main": "index.js",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./data/*": "./data/*.js",
+    "./*": "./*"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "data/*"
+  ],
   "scripts": {
     "clean": "run-p \"clean:*\"",
     "clean:dist": "del-cli dist",
     "dist": "run-p \"dist:*\"",
-    "dist:npm": "np --yolo --no-yarn",
+    "dist:npm": "release-it",
     "fix": "run-p --continue-on-error \"fix:*\"",
     "fix:eslint": "yarn lint:eslint --fix",
     "fix:markdown": "yarn lint:markdown --fix",
@@ -34,9 +45,12 @@
     "lint:package-json": "yarn run fix:package-json --check",
     "lint:prettier": "prettier . --check",
     "prepare": "husky install",
-    "test": "node --test",
+    "release": "run-s fix test dist",
+    "test": "run-p test:js test:eslint test:types",
     "test-coverage": "c8 yarn test",
-    "update": "node ./scripts/build.js"
+    "test:eslint": "node eslint-test.js",
+    "test:js": "node --test *.test.js",
+    "test:types": "tsd"
   },
   "c8": {
     "include": [
@@ -61,11 +75,11 @@
     "lint-staged": "16.2.7",
     "markdownlint-cli2": "0.19.1",
     "npm-run-all2": "8.0.4",
-    "outdent": "^0.8.0",
+    "outdent": "0.8.0",
     "prettier": "3.6.2",
+    "release-it": "19.0.6",
     "sort-package-json": "3.4.0",
-    "yaml": "^2.8.1",
-    "yazl": "^3.3.1"
+    "yaml": "^2.8.1"
   },
   "packageManager": "yarn@4.11.0",
   "publishConfig": {
