@@ -67,7 +67,7 @@ const unescape = (text) =>
     // eslint-disable-next-line sonarjs/slow-regex
     .replaceAll(/—*»/g, '\t')
     .replaceAll('↵', '')
-    .replaceAll('∎\n', '')
+    .replace(/∎\n$/, '')
     .replaceAll('←', '\r')
     .replaceAll('⇔', '\u{FEFF}')
 
@@ -112,6 +112,7 @@ function* getData() {
       cases: documents.map((rawTestCase) => {
         const testCase = {...rawTestCase}
 
+        // https://github.com/yaml/yaml-test-suite/pull/87/commits/b7189c364c2098600accbd04ea81674674d4f5d7#diff-e609193a8d03dfd908baa8658db77a8333f66475581364c6f4be6539133880f7R20
         for (const property of ['yaml', 'emit', 'tree', 'dump']) {
           if (testCase[property]) {
             testCase[property] = unescape(testCase[property])
