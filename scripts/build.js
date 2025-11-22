@@ -189,11 +189,11 @@ await Promise.all([
     new URL('../index.d.ts', import.meta.url),
     outdent`
       import {
-      ${data.map(({filenameBase}) => `  ${toSpecifier(filenameBase)} as Test_${filenameBase},`).join('\n')}
+      ${data.map(({filenameBase}) => `  ${toSpecifier(filenameBase)},`).join('\n')}
       } from './data/index.js'
 
       declare const Suite: readonly [
-      ${data.map(({filenameBase}) => `  typeof Test_${filenameBase},`).join('\n')}
+      ${data.map(({filenameBase}) => `  typeof ${toSpecifier(filenameBase)},`).join('\n')}
       ]
 
       export default Suite
