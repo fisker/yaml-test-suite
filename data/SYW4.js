@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "SYW4",
   "filename": "SYW4.yaml",
   "name": "Spec Example 2.2. Mapping Scalars to Scalars",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2759963",

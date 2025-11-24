@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_S4T7: {
+  "id": "S4T7",
   "filename": "S4T7.yaml",
   "name": "Document with footer",
   "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/footer.tml",

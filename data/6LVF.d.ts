@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6LVF: {
+  "id": "6LVF",
   "filename": "6LVF.yaml",
   "name": "Spec Example 6.13. Reserved Directives",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2781445",

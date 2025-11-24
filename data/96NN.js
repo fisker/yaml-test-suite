@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "96NN",
   "filename": "96NN.yaml",
   "name": "Leading tab content in literals",
   "from": "@ingydotnet",

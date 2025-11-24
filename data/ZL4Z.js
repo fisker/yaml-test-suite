@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "ZL4Z",
   "filename": "ZL4Z.yaml",
   "name": "Invalid nested mapping",
   "from": "@perlpunk",

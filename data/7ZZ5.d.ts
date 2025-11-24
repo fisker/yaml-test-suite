@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_7ZZ5: {
+  "id": "7ZZ5",
   "filename": "7ZZ5.yaml",
   "name": "Empty flow collections",
   "from": "@perlpunk",

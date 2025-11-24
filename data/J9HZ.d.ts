@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_J9HZ: {
+  "id": "J9HZ",
   "filename": "J9HZ.yaml",
   "name": "Spec Example 2.9. Single Document with Two Comments",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2760633",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_5KJE: {
+  "id": "5KJE",
   "filename": "5KJE.yaml",
   "name": "Spec Example 7.13. Flow Sequence",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2790506",

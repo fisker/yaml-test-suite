@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_SR86: {
+  "id": "SR86",
   "filename": "SR86.yaml",
   "name": "Anchor plus Alias",
   "from": "@perlpunk",

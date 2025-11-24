@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "229Q",
   "filename": "229Q.yaml",
   "name": "Spec Example 2.4. Sequence of Mappings",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2760193",

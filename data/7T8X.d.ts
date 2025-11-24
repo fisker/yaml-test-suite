@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_7T8X: {
+  "id": "7T8X",
   "filename": "7T8X.yaml",
   "name": "Spec Example 8.10. Folded Lines - 8.13. Final Empty Lines",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2796543",

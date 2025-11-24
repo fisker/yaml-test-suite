@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "U99R",
   "filename": "U99R.yaml",
   "name": "Invalid comma in tag",
   "from": "@perlpunk",

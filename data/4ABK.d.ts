@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_4ABK: {
+  "id": "4ABK",
   "filename": "4ABK.yaml",
   "name": "Flow Mapping Separate Values",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2791704",

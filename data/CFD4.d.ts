@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_CFD4: {
+  "id": "CFD4",
   "filename": "CFD4.yaml",
   "name": "Empty implicit key in single pair flow sequences",
   "from": "@perlpunk",

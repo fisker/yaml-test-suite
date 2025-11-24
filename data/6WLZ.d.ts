@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6WLZ: {
+  "id": "6WLZ",
   "filename": "6WLZ.yaml",
   "name": "Spec Example 6.18. Primary Tag Handle [1.3]",
   "from": "9WXW, modified for YAML 1.3",

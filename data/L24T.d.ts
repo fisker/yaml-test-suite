@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_L24T: {
+  "id": "L24T",
   "filename": "L24T.yaml",
   "name": "Trailing line of spaces",
   "from": "@ingydotnet",

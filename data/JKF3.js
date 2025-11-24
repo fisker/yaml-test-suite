@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "JKF3",
   "filename": "JKF3.yaml",
   "name": "Multiline unidented double quoted block key",
   "from": "@ingydotnet",

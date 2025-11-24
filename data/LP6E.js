@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "LP6E",
   "filename": "LP6E.yaml",
   "name": "Whitespace After Scalars in Flow",
   "from": "NimYAML tests",

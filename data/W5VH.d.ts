@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_W5VH: {
+  "id": "W5VH",
   "filename": "W5VH.yaml",
   "name": "Allowed characters in alias",
   "from": "@perlpunk",

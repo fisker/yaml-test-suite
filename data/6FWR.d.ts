@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6FWR: {
+  "id": "6FWR",
   "filename": "6FWR.yaml",
   "name": "Block Scalar Keep",
   "from": "NimYAML tests",

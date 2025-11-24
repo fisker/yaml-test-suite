@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_DC7X: {
+  "id": "DC7X",
   "filename": "DC7X.yaml",
   "name": "Various trailing tabs",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_HM87: {
+  "id": "HM87",
   "filename": "HM87.yaml",
   "name": "Scalars in flow start with syntax char",
   "from": "@ingydotnet",

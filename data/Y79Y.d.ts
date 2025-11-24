@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_Y79Y: {
+  "id": "Y79Y",
   "filename": "Y79Y.yaml",
   "name": "Tabs in various contexts",
   "from": "@ingydotnet",

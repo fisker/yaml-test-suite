@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_3UYS: {
+  "id": "3UYS",
   "filename": "3UYS.yaml",
   "name": "Escaped slash in double quotes",
   "from": "@perlpunk",

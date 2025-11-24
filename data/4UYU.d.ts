@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_4UYU: {
+  "id": "4UYU",
   "filename": "4UYU.yaml",
   "name": "Colon in Double Quoted String",
   "from": "NimYAML tests",

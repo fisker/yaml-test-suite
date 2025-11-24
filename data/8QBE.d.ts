@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_8QBE: {
+  "id": "8QBE",
   "filename": "8QBE.yaml",
   "name": "Block Sequence in Block Mapping",
   "from": "NimYAML tests",

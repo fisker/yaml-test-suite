@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_54T7: {
+  "id": "54T7",
   "filename": "54T7.yaml",
   "name": "Flow Mapping",
   "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/mapping.tml",

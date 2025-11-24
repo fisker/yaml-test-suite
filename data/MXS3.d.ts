@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_MXS3: {
+  "id": "MXS3",
   "filename": "MXS3.yaml",
   "name": "Flow Mapping in Block Sequence",
   "from": "NimYAML tests",

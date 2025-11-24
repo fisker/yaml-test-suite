@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9SA2: {
+  "id": "9SA2",
   "filename": "9SA2.yaml",
   "name": "Multiline double quoted flow mapping key",
   "from": "@perlpunk",

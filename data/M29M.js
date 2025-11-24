@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "M29M",
   "filename": "M29M.yaml",
   "name": "Literal Block Scalar",
   "from": "NimYAML tests",

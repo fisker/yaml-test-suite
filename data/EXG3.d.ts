@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_EXG3: {
+  "id": "EXG3",
   "filename": "EXG3.yaml",
   "name": "Three dashes and content without space [1.3]",
   "from": "82AN, modified for YAML 1.3",

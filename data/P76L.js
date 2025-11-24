@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "P76L",
   "filename": "P76L.yaml",
   "name": "Spec Example 6.19. Secondary Tag Handle",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2782940",

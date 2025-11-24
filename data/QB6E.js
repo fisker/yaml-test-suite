@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "QB6E",
   "filename": "QB6E.yaml",
   "name": "Wrong indented multiline quoted scalar",
   "from": "@perlpunk",

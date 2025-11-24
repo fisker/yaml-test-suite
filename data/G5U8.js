@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "G5U8",
   "filename": "G5U8.yaml",
   "name": "Plain dashes in flow sequence",
   "from": "@ingydotnet",

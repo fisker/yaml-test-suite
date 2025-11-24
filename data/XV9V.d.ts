@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_XV9V: {
+  "id": "XV9V",
   "filename": "XV9V.yaml",
   "name": "Spec Example 6.5. Empty Lines [1.3]",
   "from": "5GBF, modified for YAML 1.3",

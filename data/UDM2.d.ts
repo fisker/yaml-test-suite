@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_UDM2: {
+  "id": "UDM2",
   "filename": "UDM2.yaml",
   "name": "Plain URL in flow mapping",
   "from": "https://github.com/yaml/libyaml/pull/28",

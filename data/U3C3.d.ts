@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_U3C3: {
+  "id": "U3C3",
   "filename": "U3C3.yaml",
   "name": "Spec Example 6.16. “TAG” directive",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2782252",

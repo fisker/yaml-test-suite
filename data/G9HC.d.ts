@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_G9HC: {
+  "id": "G9HC",
   "filename": "G9HC.yaml",
   "name": "Invalid anchor in zero indented sequence",
   "from": "@perlpunk",

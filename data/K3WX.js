@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "K3WX",
   "filename": "K3WX.yaml",
   "name": "Colon and adjacent value after comment on next line",
   "from": "<Source URL or description>",

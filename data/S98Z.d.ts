@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_S98Z: {
+  "id": "S98Z",
   "filename": "S98Z.yaml",
   "name": "Block scalar with more spaces than first content line",
   "from": "@perlpunk",

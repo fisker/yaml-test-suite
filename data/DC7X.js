@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "DC7X",
   "filename": "DC7X.yaml",
   "name": "Various trailing tabs",
   "from": "@perlpunk",

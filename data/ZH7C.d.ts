@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_ZH7C: {
+  "id": "ZH7C",
   "filename": "ZH7C.yaml",
   "name": "Anchors in Mapping",
   "from": "NimYAML tests",

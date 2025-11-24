@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_L383: {
+  "id": "L383",
   "filename": "L383.yaml",
   "name": "Two scalar docs with trailing comments",
   "from": "@ingydotnet",

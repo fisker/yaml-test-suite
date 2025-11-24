@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "PBJ2",
   "filename": "PBJ2.yaml",
   "name": "Spec Example 2.3. Mapping Scalars to Sequences",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2759963",

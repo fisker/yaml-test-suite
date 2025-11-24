@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "EX5H",
   "filename": "EX5H.yaml",
   "name": "Multiline Scalar at Top Level [1.3]",
   "from": "9YRD, modified for YAML 1.3",

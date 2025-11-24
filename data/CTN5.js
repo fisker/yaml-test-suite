@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "CTN5",
   "filename": "CTN5.yaml",
   "name": "Flow sequence with invalid extra comma",
   "from": "@perlpunk",

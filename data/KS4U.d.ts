@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_KS4U: {
+  "id": "KS4U",
   "filename": "KS4U.yaml",
   "name": "Invalid item after end of flow sequence",
   "from": "@perlpunk",

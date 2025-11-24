@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_7MNF: {
+  "id": "7MNF",
   "filename": "7MNF.yaml",
   "name": "Missing colon",
   "from": "@perlpunk",

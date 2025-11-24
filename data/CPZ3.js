@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "CPZ3",
   "filename": "CPZ3.yaml",
   "name": "Doublequoted scalar starting with a tab",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "4WA9",
   "filename": "4WA9.yaml",
   "name": "Literal scalars",
   "from": "@ingydotnet",

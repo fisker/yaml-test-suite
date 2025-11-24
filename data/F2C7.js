@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "F2C7",
   "filename": "F2C7.yaml",
   "name": "Anchors and Tags",
   "from": "NimYAML tests",

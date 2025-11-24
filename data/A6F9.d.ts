@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_A6F9: {
+  "id": "A6F9",
   "filename": "A6F9.yaml",
   "name": "Spec Example 8.4. Chomping Final Line Break",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2795034",

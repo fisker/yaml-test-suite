@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_5BVJ: {
+  "id": "5BVJ",
   "filename": "5BVJ.yaml",
   "name": "Spec Example 5.7. Block Scalar Indicators",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2773653",

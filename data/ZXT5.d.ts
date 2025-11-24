@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_ZXT5: {
+  "id": "ZXT5",
   "filename": "ZXT5.yaml",
   "name": "Implicit key followed by newline and adjacent value",
   "from": "@perlpunk",

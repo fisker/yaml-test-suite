@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_W9L4: {
+  "id": "W9L4",
   "filename": "W9L4.yaml",
   "name": "Literal block scalar with more spaces in first line",
   "from": "@perlpunk",

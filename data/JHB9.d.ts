@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_JHB9: {
+  "id": "JHB9",
   "filename": "JHB9.yaml",
   "name": "Spec Example 2.7. Two Documents in a Stream",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2760493",

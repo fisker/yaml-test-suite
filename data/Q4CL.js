@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "Q4CL",
   "filename": "Q4CL.yaml",
   "name": "Trailing content after quoted value",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "9CWY",
   "filename": "9CWY.yaml",
   "name": "Invalid scalar at the end of mapping",
   "from": "@perlpunk",

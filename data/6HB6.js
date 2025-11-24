@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "6HB6",
   "filename": "6HB6.yaml",
   "name": "Spec Example 6.1. Indentation Spaces",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2777865",

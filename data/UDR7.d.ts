@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_UDR7: {
+  "id": "UDR7",
   "filename": "UDR7.yaml",
   "name": "Spec Example 5.4. Flow Collection Indicators",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2772813",

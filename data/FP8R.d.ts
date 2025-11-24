@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_FP8R: {
+  "id": "FP8R",
   "filename": "FP8R.yaml",
   "name": "Zero indented block scalar",
   "from": "@perlpunk",

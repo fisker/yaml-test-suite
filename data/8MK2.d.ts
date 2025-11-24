@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_8MK2: {
+  "id": "8MK2",
   "filename": "8MK2.yaml",
   "name": "Explicit Non-Specific Tag",
   "from": "NimYAML tests",

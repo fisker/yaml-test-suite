@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "W5VH",
   "filename": "W5VH.yaml",
   "name": "Allowed characters in alias",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "J3BT",
   "filename": "J3BT.yaml",
   "name": "Spec Example 5.12. Tabs and Spaces",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2775350",

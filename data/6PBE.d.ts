@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6PBE: {
+  "id": "6PBE",
   "filename": "6PBE.yaml",
   "name": "Zero-indented sequences in explicit mapping keys",
   "from": "@perlpunk",

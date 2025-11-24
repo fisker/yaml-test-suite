@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_K54U: {
+  "id": "K54U",
   "filename": "K54U.yaml",
   "name": "Tab after document header",
   "from": "@perlpunk",

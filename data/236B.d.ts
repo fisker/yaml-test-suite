@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_236B: {
+  "id": "236B",
   "filename": "236B.yaml",
   "name": "Invalid value after mapping",
   "from": "@perlpunk",

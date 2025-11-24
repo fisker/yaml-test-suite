@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "DBG4",
   "filename": "DBG4.yaml",
   "name": "Spec Example 7.10. Plain Characters",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2789510",

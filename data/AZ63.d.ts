@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_AZ63: {
+  "id": "AZ63",
   "filename": "AZ63.yaml",
   "name": "Sequence With Same Indentation as Parent Mapping",
   "from": "NimYAML tests",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_L94M: {
+  "id": "L94M",
   "filename": "L94M.yaml",
   "name": "Tags in Explicit Mapping",
   "from": "NimYAML tests",

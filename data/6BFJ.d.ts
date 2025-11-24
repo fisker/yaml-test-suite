@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6BFJ: {
+  "id": "6BFJ",
   "filename": "6BFJ.yaml",
   "name": "Mapping, key and flow sequence item anchors",
   "from": "@perlpunk",

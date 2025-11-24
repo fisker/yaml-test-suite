@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "SU74",
   "filename": "SU74.yaml",
   "name": "Anchor and alias as mapping key",
   "from": "@perlpunk",

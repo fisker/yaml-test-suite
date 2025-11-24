@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "S9E8",
   "filename": "S9E8.yaml",
   "name": "Spec Example 5.3. Block Structure Indicators",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2772312",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_GT5M: {
+  "id": "GT5M",
   "filename": "GT5M.yaml",
   "name": "Node anchor in sequence",
   "from": "@perlpunk",

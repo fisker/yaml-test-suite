@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_EW3V: {
+  "id": "EW3V",
   "filename": "EW3V.yaml",
   "name": "Wrong indendation in mapping",
   "from": "@perlpunk",

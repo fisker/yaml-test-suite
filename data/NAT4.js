@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "NAT4",
   "filename": "NAT4.yaml",
   "name": "Various empty or newline only quoted strings",
   "from": "@perlpunk",

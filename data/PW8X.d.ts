@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_PW8X: {
+  "id": "PW8X",
   "filename": "PW8X.yaml",
   "name": "Anchors on Empty Scalars",
   "from": "NimYAML tests",

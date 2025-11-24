@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_KH5V: {
+  "id": "KH5V",
   "filename": "KH5V.yaml",
   "name": "Inline tabs in double quoted",
   "from": "@ingydotnet",

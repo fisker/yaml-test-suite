@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "AZW3",
   "filename": "AZW3.yaml",
   "name": "Lookahead test cases",
   "from": "NimYAML tests",

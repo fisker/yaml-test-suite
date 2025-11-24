@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "9U5K",
   "filename": "9U5K.yaml",
   "name": "Spec Example 2.12. Compact Nested Mapping",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2760821",

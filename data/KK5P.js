@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "KK5P",
   "filename": "KK5P.yaml",
   "name": "Various combinations of explicit block mappings",
   "from": "@perlpunk",

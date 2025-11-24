@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "GT5M",
   "filename": "GT5M.yaml",
   "name": "Node anchor in sequence",
   "from": "@perlpunk",

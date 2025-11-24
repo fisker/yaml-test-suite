@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "8XDJ",
   "filename": "8XDJ.yaml",
   "name": "Comment in plain multiline value",
   "from": "https://gist.github.com/anonymous/deeb1ace28d5bf21fb56d80c13e2dc69 via @ingydotnet",

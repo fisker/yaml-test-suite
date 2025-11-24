@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_2AUY: {
+  "id": "2AUY",
   "filename": "2AUY.yaml",
   "name": "Tags in Block Sequence",
   "from": "NimYAML tests",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_2SXE: {
+  "id": "2SXE",
   "filename": "2SXE.yaml",
   "name": "Anchors With Colon in Name",
   "from": "Mailing List Discussion",

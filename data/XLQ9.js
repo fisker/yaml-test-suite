@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "XLQ9",
   "filename": "XLQ9.yaml",
   "name": "Multiline scalar that looks like a YAML directive",
   "from": "@perlpunk",

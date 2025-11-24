@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "TD5N",
   "filename": "TD5N.yaml",
   "name": "Invalid scalar after sequence",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_SU74: {
+  "id": "SU74",
   "filename": "SU74.yaml",
   "name": "Anchor and alias as mapping key",
   "from": "@perlpunk",

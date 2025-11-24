@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_XLQ9: {
+  "id": "XLQ9",
   "filename": "XLQ9.yaml",
   "name": "Multiline scalar that looks like a YAML directive",
   "from": "@perlpunk",

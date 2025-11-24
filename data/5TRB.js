@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "5TRB",
   "filename": "5TRB.yaml",
   "name": "Invalid document-start marker in doublequoted tring",
   "from": "@perlpunk",

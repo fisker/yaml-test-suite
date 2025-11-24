@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_LQZ7: {
+  "id": "LQZ7",
   "filename": "LQZ7.yaml",
   "name": "Spec Example 7.4. Double Quoted Implicit Keys",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2787420",

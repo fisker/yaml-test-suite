@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_FTA2: {
+  "id": "FTA2",
   "filename": "FTA2.yaml",
   "name": "Single block sequence with anchor and explicit document start",
   "from": "@perlpunk",

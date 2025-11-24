@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "GH63",
   "filename": "GH63.yaml",
   "name": "Mixed Block Mapping (explicit to implicit)",
   "from": "NimYAML tests",

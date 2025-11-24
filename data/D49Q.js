@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "D49Q",
   "filename": "D49Q.yaml",
   "name": "Multiline single quoted implicit keys",
   "from": "@perlpunk",

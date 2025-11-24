@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_UKK6: {
+  "id": "UKK6",
   "filename": "UKK6.yaml",
   "name": "Syntax character edge cases",
   "from": "@ingydotnet",

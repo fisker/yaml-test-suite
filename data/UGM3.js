@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "UGM3",
   "filename": "UGM3.yaml",
   "name": "Spec Example 2.27. Invoice",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2761823",

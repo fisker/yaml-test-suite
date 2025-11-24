@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "M7NX",
   "filename": "M7NX.yaml",
   "name": "Nested flow collections",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_W4TN: {
+  "id": "W4TN",
   "filename": "W4TN.yaml",
   "name": "Spec Example 9.5. Directives Documents",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2801606",

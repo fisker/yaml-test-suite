@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "9MAG",
   "filename": "9MAG.yaml",
   "name": "Flow sequence with invalid comma at the beginning",
   "from": "@perlpunk",

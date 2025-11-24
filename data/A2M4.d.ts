@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_A2M4: {
+  "id": "A2M4",
   "filename": "A2M4.yaml",
   "name": "Spec Example 6.2. Indentation Indicators",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2778101",

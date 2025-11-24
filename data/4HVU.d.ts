@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_4HVU: {
+  "id": "4HVU",
   "filename": "4HVU.yaml",
   "name": "Wrong indendation in Sequence",
   "from": "@perlpunk",

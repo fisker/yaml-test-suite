@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_4MUZ: {
+  "id": "4MUZ",
   "filename": "4MUZ.yaml",
   "name": "Flow mapping colon on line after key",
   "from": "@ingydotnet",

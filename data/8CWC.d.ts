@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_8CWC: {
+  "id": "8CWC",
   "filename": "8CWC.yaml",
   "name": "Plain mapping key ending with colon",
   "from": "@perlpunk",

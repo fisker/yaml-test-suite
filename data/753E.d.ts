@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_753E: {
+  "id": "753E",
   "filename": "753E.yaml",
   "name": "Block Scalar Strip [1.3]",
   "from": "MYW6, modified for YAML 1.3",

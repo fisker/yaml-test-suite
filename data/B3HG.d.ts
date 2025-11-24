@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_B3HG: {
+  "id": "B3HG",
   "filename": "B3HG.yaml",
   "name": "Spec Example 8.9. Folded Scalar [1.3]",
   "from": "G992, modified for YAML 1.3",

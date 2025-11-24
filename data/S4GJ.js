@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "S4GJ",
   "filename": "S4GJ.yaml",
   "name": "Invalid text after block scalar indicator",
   "from": "@perlpunk",

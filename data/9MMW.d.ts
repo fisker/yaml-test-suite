@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9MMW: {
+  "id": "9MMW",
   "filename": "9MMW.yaml",
   "name": "Single Pair Implicit Entries",
   "from": "@perlpunk, Spec Example 7.21",

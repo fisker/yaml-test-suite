@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9BXH: {
+  "id": "9BXH",
   "filename": "9BXH.yaml",
   "name": "Multiline doublequoted flow mapping key without value",
   "from": "@perlpunk",

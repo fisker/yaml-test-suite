@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_DHP8: {
+  "id": "DHP8",
   "filename": "DHP8.yaml",
   "name": "Flow Sequence",
   "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/sequence.tml",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_NHX8: {
+  "id": "NHX8",
   "filename": "NHX8.yaml",
   "name": "Empty Lines at End of Document",
   "from": "NimYAML tests",

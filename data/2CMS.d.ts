@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_2CMS: {
+  "id": "2CMS",
   "filename": "2CMS.yaml",
   "name": "Invalid mapping in plain multiline",
   "from": "@perlpunk",

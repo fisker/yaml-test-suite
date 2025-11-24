@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "4GC6",
   "filename": "4GC6.yaml",
   "name": "Spec Example 7.7. Single Quoted Characters",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2788307",

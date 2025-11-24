@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_N4JP: {
+  "id": "N4JP",
   "filename": "N4JP.yaml",
   "name": "Bad indentation in mapping",
   "from": "@perlpunk",

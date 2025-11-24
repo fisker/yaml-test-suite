@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "SR86",
   "filename": "SR86.yaml",
   "name": "Anchor plus Alias",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_J7PZ: {
+  "id": "J7PZ",
   "filename": "J7PZ.yaml",
   "name": "Spec Example 2.26. Ordered Mappings",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2761780",

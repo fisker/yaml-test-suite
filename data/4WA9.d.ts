@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_4WA9: {
+  "id": "4WA9",
   "filename": "4WA9.yaml",
   "name": "Literal scalars",
   "from": "@ingydotnet",

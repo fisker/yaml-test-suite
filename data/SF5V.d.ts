@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_SF5V: {
+  "id": "SF5V",
   "filename": "SF5V.yaml",
   "name": "Duplicate YAML directive",
   "from": "@perlpunk",

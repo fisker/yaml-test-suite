@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "9BXH",
   "filename": "9BXH.yaml",
   "name": "Multiline doublequoted flow mapping key without value",
   "from": "@perlpunk",

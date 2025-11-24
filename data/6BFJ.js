@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "6BFJ",
   "filename": "6BFJ.yaml",
   "name": "Mapping, key and flow sequence item anchors",
   "from": "@perlpunk",

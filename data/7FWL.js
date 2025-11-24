@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "7FWL",
   "filename": "7FWL.yaml",
   "name": "Spec Example 6.24. Verbatim Tags",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2784370",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "96L6",
   "filename": "96L6.yaml",
   "name": "Spec Example 2.14. In the folded scalars, newlines become spaces",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2761032",

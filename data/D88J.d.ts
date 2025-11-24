@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_D88J: {
+  "id": "D88J",
   "filename": "D88J.yaml",
   "name": "Flow Sequence in Block Mapping",
   "from": "NimYAML tests",

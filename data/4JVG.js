@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "4JVG",
   "filename": "4JVG.yaml",
   "name": "Scalar value with two anchors",
   "from": "@perlpunk",

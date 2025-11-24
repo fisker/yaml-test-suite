@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_Y2GN: {
+  "id": "Y2GN",
   "filename": "Y2GN.yaml",
   "name": "Anchor with colon in the middle",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_VJP3: {
+  "id": "VJP3",
   "filename": "VJP3.yaml",
   "name": "Flow collections over many lines",
   "from": "@ingydotnet",

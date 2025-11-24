@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "SU5Z",
   "filename": "SU5Z.yaml",
   "name": "Comment without whitespace after doublequoted scalar",
   "from": "@perlpunk",

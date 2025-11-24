@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "M6YH",
   "filename": "M6YH.yaml",
   "name": "Block sequence indentation",
   "from": "@ingydotnet",

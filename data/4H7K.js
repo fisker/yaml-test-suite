@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "4H7K",
   "filename": "4H7K.yaml",
   "name": "Flow sequence with invalid extra closing bracket",
   "from": "@perlpunk",

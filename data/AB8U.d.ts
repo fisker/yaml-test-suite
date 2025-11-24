@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_AB8U: {
+  "id": "AB8U",
   "filename": "AB8U.yaml",
   "name": "Sequence entry that looks like two with wrong indentation",
   "from": "@perlpunk",

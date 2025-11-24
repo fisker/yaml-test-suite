@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_7W2P: {
+  "id": "7W2P",
   "filename": "7W2P.yaml",
   "name": "Block Mapping with Missing Values",
   "from": "NimYAML tests",

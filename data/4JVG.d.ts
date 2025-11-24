@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_4JVG: {
+  "id": "4JVG",
   "filename": "4JVG.yaml",
   "name": "Scalar value with two anchors",
   "from": "@perlpunk",

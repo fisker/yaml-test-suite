@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_DK4H: {
+  "id": "DK4H",
   "filename": "DK4H.yaml",
   "name": "Implicit key followed by newline",
   "from": "@perlpunk",

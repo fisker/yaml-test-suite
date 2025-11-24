@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "4Q9F",
   "filename": "4Q9F.yaml",
   "name": "Folded Block Scalar [1.3]",
   "from": "TS54, modified for YAML 1.3",

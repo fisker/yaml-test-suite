@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_KSS4: {
+  "id": "KSS4",
   "filename": "KSS4.yaml",
   "name": "Scalars on --- line",
   "from": "@perlpunk",

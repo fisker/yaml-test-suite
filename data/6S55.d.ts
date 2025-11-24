@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6S55: {
+  "id": "6S55",
   "filename": "6S55.yaml",
   "name": "Invalid scalar at the end of sequence",
   "from": "@perlpunk",

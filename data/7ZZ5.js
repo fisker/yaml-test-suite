@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "7ZZ5",
   "filename": "7ZZ5.yaml",
   "name": "Empty flow collections",
   "from": "@perlpunk",

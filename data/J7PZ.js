@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "J7PZ",
   "filename": "J7PZ.yaml",
   "name": "Spec Example 2.26. Ordered Mappings",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2761780",

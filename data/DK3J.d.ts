@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_DK3J: {
+  "id": "DK3J",
   "filename": "DK3J.yaml",
   "name": "Zero indented block scalar with line that looks like a comment",
   "from": "@perlpunk",

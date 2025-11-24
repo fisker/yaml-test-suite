@@ -8,8 +8,13 @@ const assertTags = (tags) => {
 }
 
 test('Main', () => {
+  const seen = new Set()
   for (const data of yamlTestSuite) {
-    assert.ok(/^[0-9A-Z]{4}\.yaml$/.test(data.filename))
+    assert.ok(/^[0-9A-Z]{4}$/.test(data.id))
+    assert.ok(!seen.has(data.id))
+    seen.add(data.id)
+
+    assert.equal(data.filename, `${data.id}.yaml`)
     assert.equal(typeof data.name, 'string')
     assert.equal(typeof data.from, 'string')
     assertTags(data.tags)
@@ -21,6 +26,9 @@ test('Main', () => {
       assert.equal(typeof testCase.yaml, 'string')
       if (testCase.tags) {
         assertTags(testCase.tags)
+      }
+      if ('fail' in testCase) {
+        assert.equal(testCase.fail, true)
       }
     }
   }

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "NHX8",
   "filename": "NHX8.yaml",
   "name": "Empty Lines at End of Document",
   "from": "NimYAML tests",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "C4HZ",
   "filename": "C4HZ.yaml",
   "name": "Spec Example 2.24. Global Tags",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2761719",

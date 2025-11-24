@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_DE56: {
+  "id": "DE56",
   "filename": "DE56.yaml",
   "name": "Trailing tabs in double quoted",
   "from": "@ingydotnet",

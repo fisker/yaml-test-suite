@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "4CQQ",
   "filename": "4CQQ.yaml",
   "name": "Spec Example 2.18. Multi-line Flow Scalars",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2761268",

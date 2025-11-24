@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "7TMG",
   "filename": "7TMG.yaml",
   "name": "Comment in flow sequence before comma",
   "from": "@perlpunk",

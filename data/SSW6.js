@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "SSW6",
   "filename": "SSW6.yaml",
   "name": "Spec Example 7.7. Single Quoted Characters [1.3]",
   "from": "4GC6, modified for YAML 1.3",

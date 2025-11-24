@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "4RWC",
   "filename": "4RWC.yaml",
   "name": "Trailing spaces after flow collection",
   "from": "@ingydotnet",

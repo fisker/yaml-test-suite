@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_B63P: {
+  "id": "B63P",
   "filename": "B63P.yaml",
   "name": "Directive without document",
   "from": "AdaYaml tests",

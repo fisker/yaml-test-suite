@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_W42U: {
+  "id": "W42U",
   "filename": "W42U.yaml",
   "name": "Spec Example 8.15. Block Sequence Entry Types",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2797944",

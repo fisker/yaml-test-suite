@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "S3PD",
   "filename": "S3PD.yaml",
   "name": "Spec Example 8.18. Implicit Block Mapping Entries",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2798896",

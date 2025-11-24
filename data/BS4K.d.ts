@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_BS4K: {
+  "id": "BS4K",
   "filename": "BS4K.yaml",
   "name": "Comment between plain scalar lines",
   "from": "https://gist.github.com/anonymous/269f16d582fdd30a7dcf8c9249c5da7f via @ingydotnet",

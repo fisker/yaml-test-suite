@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "D83L",
   "filename": "D83L.yaml",
   "name": "Block scalar indicator order",
   "from": "@perlpunk",

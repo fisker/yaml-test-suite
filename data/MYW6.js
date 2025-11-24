@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "MYW6",
   "filename": "MYW6.yaml",
   "name": "Block Scalar Strip",
   "from": "NimYAML tests",

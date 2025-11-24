@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "7BUB",
   "filename": "7BUB.yaml",
   "name": "Spec Example 2.10. Node for “Sammy Sosa” appears twice in this document",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2760658",

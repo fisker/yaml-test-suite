@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "7Z25",
   "filename": "7Z25.yaml",
   "name": "Bare document after document end marker",
   "from": "@perlpunk",

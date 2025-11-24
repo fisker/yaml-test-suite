@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_TS54: {
+  "id": "TS54",
   "filename": "TS54.yaml",
   "name": "Folded Block Scalar",
   "from": "NimYAML tests",

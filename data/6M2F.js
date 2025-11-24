@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "6M2F",
   "filename": "6M2F.yaml",
   "name": "Aliases in Explicit Block Mapping",
   "from": "NimYAML tests",

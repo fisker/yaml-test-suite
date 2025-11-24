@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_57H4: {
+  "id": "57H4",
   "filename": "57H4.yaml",
   "name": "Spec Example 8.22. Block Collection Nodes",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2800008",

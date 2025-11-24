@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "2G84",
   "filename": "2G84.yaml",
   "name": "Literal modifers",
   "from": "@ingydotnet",

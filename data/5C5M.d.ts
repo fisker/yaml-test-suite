@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_5C5M: {
+  "id": "5C5M",
   "filename": "5C5M.yaml",
   "name": "Spec Example 7.15. Flow Mappings",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2791018",

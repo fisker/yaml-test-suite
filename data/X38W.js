@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "X38W",
   "filename": "X38W.yaml",
   "name": "Aliases in Flow Objects",
   "from": "NimYAML tests",

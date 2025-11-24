@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "H2RW",
   "filename": "H2RW.yaml",
   "name": "Blank lines",
   "from": "IRC discussion with leont",

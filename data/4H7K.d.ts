@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_4H7K: {
+  "id": "4H7K",
   "filename": "4H7K.yaml",
   "name": "Flow sequence with invalid extra closing bracket",
   "from": "@perlpunk",

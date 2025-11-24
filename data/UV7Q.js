@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "UV7Q",
   "filename": "UV7Q.yaml",
   "name": "Legal tab after indentation",
   "from": "@ingydotnet",

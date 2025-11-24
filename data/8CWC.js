@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "8CWC",
   "filename": "8CWC.yaml",
   "name": "Plain mapping key ending with colon",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "FTA2",
   "filename": "FTA2.yaml",
   "name": "Single block sequence with anchor and explicit document start",
   "from": "@perlpunk",

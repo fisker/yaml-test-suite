@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_MJS9: {
+  "id": "MJS9",
   "filename": "MJS9.yaml",
   "name": "Spec Example 6.7. Block Folding",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2779603",

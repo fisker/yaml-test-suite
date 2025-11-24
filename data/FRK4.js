@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "FRK4",
   "filename": "FRK4.yaml",
   "name": "Spec Example 7.3. Completely Empty Flow Nodes",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2786868",

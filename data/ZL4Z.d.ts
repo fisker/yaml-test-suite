@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_ZL4Z: {
+  "id": "ZL4Z",
   "filename": "ZL4Z.yaml",
   "name": "Invalid nested mapping",
   "from": "@perlpunk",

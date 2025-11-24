@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_KMK3: {
+  "id": "KMK3",
   "filename": "KMK3.yaml",
   "name": "Block Submapping",
   "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/mapping.tml",

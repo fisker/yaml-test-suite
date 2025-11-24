@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "NB6Z",
   "filename": "NB6Z.yaml",
   "name": "Multiline plain value with tabs on empty lines",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_S4GJ: {
+  "id": "S4GJ",
   "filename": "S4GJ.yaml",
   "name": "Invalid text after block scalar indicator",
   "from": "@perlpunk",

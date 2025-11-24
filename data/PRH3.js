@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "PRH3",
   "filename": "PRH3.yaml",
   "name": "Spec Example 7.9. Single Quoted Lines",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2788756",

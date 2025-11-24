@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_CXX2: {
+  "id": "CXX2",
   "filename": "CXX2.yaml",
   "name": "Mapping with anchor on document start line",
   "from": "@perlpunk",

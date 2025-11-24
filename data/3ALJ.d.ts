@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_3ALJ: {
+  "id": "3ALJ",
   "filename": "3ALJ.yaml",
   "name": "Block Sequence in Block Sequence",
   "from": "NimYAML tests",

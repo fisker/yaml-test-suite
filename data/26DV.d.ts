@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_26DV: {
+  "id": "26DV",
   "filename": "26DV.yaml",
   "name": "Whitespace around colon in mappings",
   "from": "@perlpunk",

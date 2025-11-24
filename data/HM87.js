@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "HM87",
   "filename": "HM87.yaml",
   "name": "Scalars in flow start with syntax char",
   "from": "@ingydotnet",

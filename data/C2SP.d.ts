@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_C2SP: {
+  "id": "C2SP",
   "filename": "C2SP.yaml",
   "name": "Flow Mapping Key on two lines",
   "from": "@perlpunk",

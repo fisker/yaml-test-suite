@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_JTV5: {
+  "id": "JTV5",
   "filename": "JTV5.yaml",
   "name": "Block Mapping with Multiline Scalars",
   "from": "NimYAML tests",

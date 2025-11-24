@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_YD5X: {
+  "id": "YD5X",
   "filename": "YD5X.yaml",
   "name": "Spec Example 2.5. Sequence of Sequences",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2760351",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_UV7Q: {
+  "id": "UV7Q",
   "filename": "UV7Q.yaml",
   "name": "Legal tab after indentation",
   "from": "@ingydotnet",

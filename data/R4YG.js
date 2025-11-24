@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "R4YG",
   "filename": "R4YG.yaml",
   "name": "Spec Example 8.2. Block Indentation Indicator",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2794311",

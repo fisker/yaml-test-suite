@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_5LLU: {
+  "id": "5LLU",
   "filename": "5LLU.yaml",
   "name": "Block scalar with wrong indented line after spaces only",
   "from": "@perlpunk",

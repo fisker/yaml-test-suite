@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_RXY3: {
+  "id": "RXY3",
   "filename": "RXY3.yaml",
   "name": "Invalid document-end marker in single quoted string",
   "from": "@perlpunk",

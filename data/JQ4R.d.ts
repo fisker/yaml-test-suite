@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_JQ4R: {
+  "id": "JQ4R",
   "filename": "JQ4R.yaml",
   "name": "Spec Example 8.14. Block Sequence",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2797596",

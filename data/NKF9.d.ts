@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_NKF9: {
+  "id": "NKF9",
   "filename": "NKF9.yaml",
   "name": "Empty keys in block and flow mapping",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_TD5N: {
+  "id": "TD5N",
   "filename": "TD5N.yaml",
   "name": "Invalid scalar after sequence",
   "from": "@perlpunk",

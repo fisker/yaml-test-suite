@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "MZX3",
   "filename": "MZX3.yaml",
   "name": "Non-Specific Tags on Scalars",
   "from": "NimYAML tests",

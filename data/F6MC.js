@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "F6MC",
   "filename": "F6MC.yaml",
   "name": "More indented lines at the beginning of folded block scalars",
   "from": "@perlpunk",

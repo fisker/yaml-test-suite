@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_87E4: {
+  "id": "87E4",
   "filename": "87E4.yaml",
   "name": "Spec Example 7.8. Single Quoted Implicit Keys",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2788496",

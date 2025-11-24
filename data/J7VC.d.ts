@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_J7VC: {
+  "id": "J7VC",
   "filename": "J7VC.yaml",
   "name": "Empty Lines Between Mapping Elements",
   "from": "NimYAML tests",

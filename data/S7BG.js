@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "S7BG",
   "filename": "S7BG.yaml",
   "name": "Colon followed by comma",
   "from": "@perlpunk",

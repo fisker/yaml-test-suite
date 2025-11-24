@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_LP6E: {
+  "id": "LP6E",
   "filename": "LP6E.yaml",
   "name": "Whitespace After Scalars in Flow",
   "from": "NimYAML tests",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "SKE5",
   "filename": "SKE5.yaml",
   "name": "Anchor before zero indented sequence",
   "from": "@perlpunk",

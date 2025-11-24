@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "SBG9",
   "filename": "SBG9.yaml",
   "name": "Flow Sequence in Flow Mapping",
   "from": "NimYAML tests",

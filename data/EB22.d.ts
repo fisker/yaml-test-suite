@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_EB22: {
+  "id": "EB22",
   "filename": "EB22.yaml",
   "name": "Missing document-end marker before directive",
   "from": "@perlpunk",

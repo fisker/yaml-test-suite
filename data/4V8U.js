@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "4V8U",
   "filename": "4V8U.yaml",
   "name": "Plain scalar with backslashes",
   "from": "@perlpunk",

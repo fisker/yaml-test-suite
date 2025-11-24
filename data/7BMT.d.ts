@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_7BMT: {
+  "id": "7BMT",
   "filename": "7BMT.yaml",
   "name": "Node and Mapping Key Anchors [1.3]",
   "from": "U3XV, modified for YAML 1.3",

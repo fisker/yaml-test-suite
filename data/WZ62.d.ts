@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_WZ62: {
+  "id": "WZ62",
   "filename": "WZ62.yaml",
   "name": "Spec Example 7.2. Empty Content",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2786720",

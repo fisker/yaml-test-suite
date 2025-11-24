@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "2EBW",
   "filename": "2EBW.yaml",
   "name": "Allowed characters in keys",
   "from": "@perlpunk",

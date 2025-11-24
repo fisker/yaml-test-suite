@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_F6MC: {
+  "id": "F6MC",
   "filename": "F6MC.yaml",
   "name": "More indented lines at the beginning of folded block scalars",
   "from": "@perlpunk",

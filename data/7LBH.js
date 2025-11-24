@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "7LBH",
   "filename": "7LBH.yaml",
   "name": "Multiline double quoted implicit keys",
   "from": "@perlpunk",

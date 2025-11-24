@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "L383",
   "filename": "L383.yaml",
   "name": "Two scalar docs with trailing comments",
   "from": "@ingydotnet",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_BU8L: {
+  "id": "BU8L",
   "filename": "BU8L.yaml",
   "name": "Node Anchor and Tag on Seperate Lines",
   "from": "https://gist.github.com/anonymous/f192e7dab6da31831f264dbf1947cb83 via @ingydotnet",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_X38W: {
+  "id": "X38W",
   "filename": "X38W.yaml",
   "name": "Aliases in Flow Objects",
   "from": "NimYAML tests",

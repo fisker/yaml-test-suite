@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_FBC9: {
+  "id": "FBC9",
   "filename": "FBC9.yaml",
   "name": "Allowed characters in plain scalars",
   "from": "@perlpunk",

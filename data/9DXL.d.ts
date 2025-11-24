@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9DXL: {
+  "id": "9DXL",
   "filename": "9DXL.yaml",
   "name": "Spec Example 9.6. Stream [1.3]",
   "from": "6ZKB, modified for YAML 1.3",

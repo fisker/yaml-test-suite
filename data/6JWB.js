@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "6JWB",
   "filename": "6JWB.yaml",
   "name": "Tags for Block Objects",
   "from": "NimYAML tests",

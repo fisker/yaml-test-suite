@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_FQ7F: {
+  "id": "FQ7F",
   "filename": "FQ7F.yaml",
   "name": "Spec Example 2.1. Sequence of Scalars",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2759963",

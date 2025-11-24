@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9TFX: {
+  "id": "9TFX",
   "filename": "9TFX.yaml",
   "name": "Spec Example 7.6. Double Quoted Lines [1.3]",
   "from": "7A4E, modified for YAML 1.3",

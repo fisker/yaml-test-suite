@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_FH7J: {
+  "id": "FH7J",
   "filename": "FH7J.yaml",
   "name": "Tags on Empty Scalars",
   "from": "NimYAML tests",

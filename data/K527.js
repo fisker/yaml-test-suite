@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "K527",
   "filename": "K527.yaml",
   "name": "Spec Example 6.6. Line Folding",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2779289",

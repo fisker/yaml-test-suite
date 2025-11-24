@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "3GZX",
   "filename": "3GZX.yaml",
   "name": "Spec Example 7.1. Alias Nodes",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2786448",

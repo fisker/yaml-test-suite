@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "JS2J",
   "filename": "JS2J.yaml",
   "name": "Spec Example 6.29. Node Anchors",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2785977",

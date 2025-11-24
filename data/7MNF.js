@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "7MNF",
   "filename": "7MNF.yaml",
   "name": "Missing colon",
   "from": "@perlpunk",

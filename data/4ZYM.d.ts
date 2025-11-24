@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_4ZYM: {
+  "id": "4ZYM",
   "filename": "4ZYM.yaml",
   "name": "Spec Example 6.4. Line Prefixes",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2778720",

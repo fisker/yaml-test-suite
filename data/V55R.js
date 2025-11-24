@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "V55R",
   "filename": "V55R.yaml",
   "name": "Aliases in Block Sequence",
   "from": "NimYAML tests",

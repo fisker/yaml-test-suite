@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "A984",
   "filename": "A984.yaml",
   "name": "Multiline Scalar in Mapping",
   "from": "NimYAML tests",

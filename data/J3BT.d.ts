@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_J3BT: {
+  "id": "J3BT",
   "filename": "J3BT.yaml",
   "name": "Spec Example 5.12. Tabs and Spaces",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2775350",

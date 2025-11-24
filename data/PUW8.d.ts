@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_PUW8: {
+  "id": "PUW8",
   "filename": "PUW8.yaml",
   "name": "Document start on last line",
   "from": "@perlpunk",

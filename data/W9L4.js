@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "W9L4",
   "filename": "W9L4.yaml",
   "name": "Literal block scalar with more spaces in first line",
   "from": "@perlpunk",

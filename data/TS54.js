@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "TS54",
   "filename": "TS54.yaml",
   "name": "Folded Block Scalar",
   "from": "NimYAML tests",

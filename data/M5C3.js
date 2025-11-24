@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "M5C3",
   "filename": "M5C3.yaml",
   "name": "Spec Example 8.21. Block Scalar Nodes",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2799693",

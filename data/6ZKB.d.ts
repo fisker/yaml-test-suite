@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6ZKB: {
+  "id": "6ZKB",
   "filename": "6ZKB.yaml",
   "name": "Spec Example 9.6. Stream",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2801896",

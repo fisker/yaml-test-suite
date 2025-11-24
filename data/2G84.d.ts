@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_2G84: {
+  "id": "2G84",
   "filename": "2G84.yaml",
   "name": "Literal modifers",
   "from": "@ingydotnet",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_4RWC: {
+  "id": "4RWC",
   "filename": "4RWC.yaml",
   "name": "Trailing spaces after flow collection",
   "from": "@ingydotnet",

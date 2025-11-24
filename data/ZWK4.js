@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "ZWK4",
   "filename": "ZWK4.yaml",
   "name": "Key with anchor after missing explicit mapping value",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_A984: {
+  "id": "A984",
   "filename": "A984.yaml",
   "name": "Multiline Scalar in Mapping",
   "from": "NimYAML tests",

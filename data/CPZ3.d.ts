@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_CPZ3: {
+  "id": "CPZ3",
   "filename": "CPZ3.yaml",
   "name": "Doublequoted scalar starting with a tab",
   "from": "@perlpunk",

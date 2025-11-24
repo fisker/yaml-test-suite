@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "KS4U",
   "filename": "KS4U.yaml",
   "name": "Invalid item after end of flow sequence",
   "from": "@perlpunk",

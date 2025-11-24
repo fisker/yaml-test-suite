@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_S7BG: {
+  "id": "S7BG",
   "filename": "S7BG.yaml",
   "name": "Colon followed by comma",
   "from": "@perlpunk",

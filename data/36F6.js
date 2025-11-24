@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "36F6",
   "filename": "36F6.yaml",
   "name": "Multiline plain scalar with empty line",
   "from": "@perlpunk",

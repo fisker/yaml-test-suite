@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_CN3R: {
+  "id": "CN3R",
   "filename": "CN3R.yaml",
   "name": "Various location of anchors in flow sequence",
   "from": "@perlpunk",

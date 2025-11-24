@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_K858: {
+  "id": "K858",
   "filename": "K858.yaml",
   "name": "Spec Example 8.6. Empty Scalar Chomping",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2795596",

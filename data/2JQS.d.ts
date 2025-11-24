@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_2JQS: {
+  "id": "2JQS",
   "filename": "2JQS.yaml",
   "name": "Block Mapping with Missing Keys",
   "from": "NimYAML tests",

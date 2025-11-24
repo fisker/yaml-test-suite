@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "PW8X",
   "filename": "PW8X.yaml",
   "name": "Anchors on Empty Scalars",
   "from": "NimYAML tests",

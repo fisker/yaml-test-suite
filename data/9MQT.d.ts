@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9MQT: {
+  "id": "9MQT",
   "filename": "9MQT.yaml",
   "name": "Scalar doc with '...' in content",
   "from": "@ingydotnet",

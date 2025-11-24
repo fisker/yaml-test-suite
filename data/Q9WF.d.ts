@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_Q9WF: {
+  "id": "Q9WF",
   "filename": "Q9WF.yaml",
   "name": "Spec Example 6.12. Separation Spaces",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2780989",

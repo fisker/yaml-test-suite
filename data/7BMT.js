@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "7BMT",
   "filename": "7BMT.yaml",
   "name": "Node and Mapping Key Anchors [1.3]",
   "from": "U3XV, modified for YAML 1.3",

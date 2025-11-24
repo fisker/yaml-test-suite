@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "FUP4",
   "filename": "FUP4.yaml",
   "name": "Flow Sequence in Flow Sequence",
   "from": "NimYAML tests",

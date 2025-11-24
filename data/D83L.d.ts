@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_D83L: {
+  "id": "D83L",
   "filename": "D83L.yaml",
   "name": "Block scalar indicator order",
   "from": "@perlpunk",

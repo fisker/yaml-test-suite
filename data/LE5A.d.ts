@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_LE5A: {
+  "id": "LE5A",
   "filename": "LE5A.yaml",
   "name": "Spec Example 7.24. Flow Nodes",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2793490",

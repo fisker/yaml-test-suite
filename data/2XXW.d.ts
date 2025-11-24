@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_2XXW: {
+  "id": "2XXW",
   "filename": "2XXW.yaml",
   "name": "Spec Example 2.25. Unordered Sets",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2761758",

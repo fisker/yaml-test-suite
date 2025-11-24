@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "RR7F",
   "filename": "RR7F.yaml",
   "name": "Mixed Block Mapping (implicit to explicit)",
   "from": "NimYAML tests",

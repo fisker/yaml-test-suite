@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "6BCT",
   "filename": "6BCT.yaml",
   "name": "Spec Example 6.3. Separation Spaces",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2778394",

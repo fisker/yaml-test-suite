@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "74H7",
   "filename": "74H7.yaml",
   "name": "Tags in Implicit Mapping",
   "from": "NimYAML tests",

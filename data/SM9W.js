@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "SM9W",
   "filename": "SM9W.yaml",
   "name": "Single character streams",
   "from": "@ingydotnet",

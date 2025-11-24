@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_FUP4: {
+  "id": "FUP4",
   "filename": "FUP4.yaml",
   "name": "Flow Sequence in Flow Sequence",
   "from": "NimYAML tests",

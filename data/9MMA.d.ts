@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9MMA: {
+  "id": "9MMA",
   "filename": "9MMA.yaml",
   "name": "Directive by itself with no document",
   "from": "@ingydotnet",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "T4YY",
   "filename": "T4YY.yaml",
   "name": "Spec Example 7.9. Single Quoted Lines [1.3]",
   "from": "PRH3, modified for YAML 1.3",

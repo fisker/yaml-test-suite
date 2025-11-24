@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "QF4Y",
   "filename": "QF4Y.yaml",
   "name": "Spec Example 7.19. Single Pair Flow Mappings",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2792291",

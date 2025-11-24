@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "LE5A",
   "filename": "LE5A.yaml",
   "name": "Spec Example 7.24. Flow Nodes",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2793490",

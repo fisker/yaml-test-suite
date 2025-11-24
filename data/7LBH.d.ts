@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_7LBH: {
+  "id": "7LBH",
   "filename": "7LBH.yaml",
   "name": "Multiline double quoted implicit keys",
   "from": "@perlpunk",

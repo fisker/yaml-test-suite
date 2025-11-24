@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_RHX7: {
+  "id": "RHX7",
   "filename": "RHX7.yaml",
   "name": "YAML directive without document end marker",
   "from": "@perlpunk",

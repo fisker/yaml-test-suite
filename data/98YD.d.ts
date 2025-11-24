@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_98YD: {
+  "id": "98YD",
   "filename": "98YD.yaml",
   "name": "Spec Example 5.5. Comment Indicator",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2773032",

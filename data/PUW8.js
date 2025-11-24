@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "PUW8",
   "filename": "PUW8.yaml",
   "name": "Document start on last line",
   "from": "@perlpunk",

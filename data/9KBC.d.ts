@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9KBC: {
+  "id": "9KBC",
   "filename": "9KBC.yaml",
   "name": "Mapping starting at --- line",
   "from": "https://gist.github.com/anonymous/c728390e92ec93fb371ac77f21435cca via @ingydotnet",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_L9U5: {
+  "id": "L9U5",
   "filename": "L9U5.yaml",
   "name": "Spec Example 7.11. Plain Implicit Keys",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2789794",

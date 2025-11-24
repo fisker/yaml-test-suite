@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9C9N: {
+  "id": "9C9N",
   "filename": "9C9N.yaml",
   "name": "Wrong indented flow sequence",
   "from": "@perlpunk",

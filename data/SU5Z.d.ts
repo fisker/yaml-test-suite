@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_SU5Z: {
+  "id": "SU5Z",
   "filename": "SU5Z.yaml",
   "name": "Comment without whitespace after doublequoted scalar",
   "from": "@perlpunk",

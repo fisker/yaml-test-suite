@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_ZVH3: {
+  "id": "ZVH3",
   "filename": "ZVH3.yaml",
   "name": "Wrong indented sequence item",
   "from": "@perlpunk",

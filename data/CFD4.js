@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "CFD4",
   "filename": "CFD4.yaml",
   "name": "Empty implicit key in single pair flow sequences",
   "from": "@perlpunk",

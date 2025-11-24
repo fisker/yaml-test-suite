@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_RZP5: {
+  "id": "RZP5",
   "filename": "RZP5.yaml",
   "name": "Various Trailing Comments [1.3]",
   "from": "XW4D, modified for YAML 1.3",

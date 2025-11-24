@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "4MUZ",
   "filename": "4MUZ.yaml",
   "name": "Flow mapping colon on line after key",
   "from": "@ingydotnet",

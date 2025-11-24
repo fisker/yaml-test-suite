@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6WPF: {
+  "id": "6WPF",
   "filename": "6WPF.yaml",
   "name": "Spec Example 6.8. Flow Folding [1.3]",
   "from": "TL85, modified for YAML 1.3",

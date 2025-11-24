@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_CC74: {
+  "id": "CC74",
   "filename": "CC74.yaml",
   "name": "Spec Example 6.20. Tag Handles",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2783195",

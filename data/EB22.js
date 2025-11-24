@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "EB22",
   "filename": "EB22.yaml",
   "name": "Missing document-end marker before directive",
   "from": "@perlpunk",

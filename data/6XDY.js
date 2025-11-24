@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "6XDY",
   "filename": "6XDY.yaml",
   "name": "Two document start markers",
   "from": "@perlpunk",

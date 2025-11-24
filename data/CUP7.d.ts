@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_CUP7: {
+  "id": "CUP7",
   "filename": "CUP7.yaml",
   "name": "Spec Example 5.6. Node Property Indicators",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2773402",

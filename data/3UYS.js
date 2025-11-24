@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "3UYS",
   "filename": "3UYS.yaml",
   "name": "Escaped slash in double quotes",
   "from": "@perlpunk",

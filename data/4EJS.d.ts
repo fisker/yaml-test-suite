@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_4EJS: {
+  "id": "4EJS",
   "filename": "4EJS.yaml",
   "name": "Invalid tabs as indendation in a mapping",
   "from": "https://github.com/nodeca/js-yaml/issues/80",

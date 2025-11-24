@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_EHF6: {
+  "id": "EHF6",
   "filename": "EHF6.yaml",
   "name": "Tags for Flow Objects",
   "from": "NimYAML tests",

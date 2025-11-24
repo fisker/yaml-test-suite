@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "JEF9",
   "filename": "JEF9.yaml",
   "name": "Trailing whitespace in streams",
   "from": "@ingydotnet",

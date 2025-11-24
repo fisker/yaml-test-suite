@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_QB6E: {
+  "id": "QB6E",
   "filename": "QB6E.yaml",
   "name": "Wrong indented multiline quoted scalar",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_T26H: {
+  "id": "T26H",
   "filename": "T26H.yaml",
   "name": "Spec Example 8.8. Literal Content [1.3]",
   "from": "DWX9, modified for YAML 1.3",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "MUS6",
   "filename": "MUS6.yaml",
   "name": "Directive variants",
   "from": "@ingydotnet",

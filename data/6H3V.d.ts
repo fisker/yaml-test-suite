@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6H3V: {
+  "id": "6H3V",
   "filename": "6H3V.yaml",
   "name": "Backslashes in singlequotes",
   "from": "@perlpunk",

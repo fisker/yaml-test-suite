@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_5TYM: {
+  "id": "5TYM",
   "filename": "5TYM.yaml",
   "name": "Spec Example 6.21. Local Tag Prefix",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2783499",

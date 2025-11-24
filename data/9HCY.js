@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "9HCY",
   "filename": "9HCY.yaml",
   "name": "Need document footer before directives",
   "from": "@ingydotnet",

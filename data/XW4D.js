@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "XW4D",
   "filename": "XW4D.yaml",
   "name": "Various Trailing Comments",
   "from": "@perlpunk",

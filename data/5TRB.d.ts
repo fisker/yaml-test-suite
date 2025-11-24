@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_5TRB: {
+  "id": "5TRB",
   "filename": "5TRB.yaml",
   "name": "Invalid document-start marker in doublequoted tring",
   "from": "@perlpunk",

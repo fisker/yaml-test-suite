@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "9MMW",
   "filename": "9MMW.yaml",
   "name": "Single Pair Implicit Entries",
   "from": "@perlpunk, Spec Example 7.21",

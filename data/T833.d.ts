@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_T833: {
+  "id": "T833",
   "filename": "T833.yaml",
   "name": "Flow mapping missing a separating comma",
   "from": "@perlpunk",

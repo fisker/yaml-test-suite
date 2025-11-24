@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "FH7J",
   "filename": "FH7J.yaml",
   "name": "Tags on Empty Scalars",
   "from": "NimYAML tests",

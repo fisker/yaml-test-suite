@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_3RLN: {
+  "id": "3RLN",
   "filename": "3RLN.yaml",
   "name": "Leading tabs in double quoted",
   "from": "@ingydotnet",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_SKE5: {
+  "id": "SKE5",
   "filename": "SKE5.yaml",
   "name": "Anchor before zero indented sequence",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_MZX3: {
+  "id": "MZX3",
   "filename": "MZX3.yaml",
   "name": "Non-Specific Tags on Scalars",
   "from": "NimYAML tests",

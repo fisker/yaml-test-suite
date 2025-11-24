@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9KAX: {
+  "id": "9KAX",
   "filename": "9KAX.yaml",
   "name": "Various combinations of tags and anchors",
   "from": "@perlpunk",

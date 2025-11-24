@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_BF9H: {
+  "id": "BF9H",
   "filename": "BF9H.yaml",
   "name": "Trailing comment in multiline plain scalar",
   "from": "@perlpunk",

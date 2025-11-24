@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_ZCZ6: {
+  "id": "ZCZ6",
   "filename": "ZCZ6.yaml",
   "name": "Invalid mapping in plain single line value",
   "from": "https://gist.github.com/anonymous/0c8db51d151baf8113205ba3ce71d1b4 via @ingydotnet",

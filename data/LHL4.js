@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "LHL4",
   "filename": "LHL4.yaml",
   "name": "Invalid tag",
   "from": "@perlpunk",

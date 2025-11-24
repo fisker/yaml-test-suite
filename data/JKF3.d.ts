@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_JKF3: {
+  "id": "JKF3",
   "filename": "JKF3.yaml",
   "name": "Multiline unidented double quoted block key",
   "from": "@ingydotnet",

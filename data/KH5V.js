@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "KH5V",
   "filename": "KH5V.yaml",
   "name": "Inline tabs in double quoted",
   "from": "@ingydotnet",

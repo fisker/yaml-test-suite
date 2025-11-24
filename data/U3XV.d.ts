@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_U3XV: {
+  "id": "U3XV",
   "filename": "U3XV.yaml",
   "name": "Node and Mapping Key Anchors",
   "from": "@perlpunk",

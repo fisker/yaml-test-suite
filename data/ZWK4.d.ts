@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_ZWK4: {
+  "id": "ZWK4",
   "filename": "ZWK4.yaml",
   "name": "Key with anchor after missing explicit mapping value",
   "from": "@perlpunk",

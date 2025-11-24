@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_DFF7: {
+  "id": "DFF7",
   "filename": "DFF7.yaml",
   "name": "Spec Example 7.16. Flow Mapping Entries",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2791260",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_LX3P: {
+  "id": "LX3P",
   "filename": "LX3P.yaml",
   "name": "Implicit Flow Mapping Key on one line",
   "from": "@perlpunk",

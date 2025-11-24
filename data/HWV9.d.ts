@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_HWV9: {
+  "id": "HWV9",
   "filename": "HWV9.yaml",
   "name": "Document-end marker",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "DK4H",
   "filename": "DK4H.yaml",
   "name": "Implicit key followed by newline",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_M7NX: {
+  "id": "M7NX",
   "filename": "M7NX.yaml",
   "name": "Nested flow collections",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_5GBF: {
+  "id": "5GBF",
   "filename": "5GBF.yaml",
   "name": "Spec Example 6.5. Empty Lines",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2778971",

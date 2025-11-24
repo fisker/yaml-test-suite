@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "BD7L",
   "filename": "BD7L.yaml",
   "name": "Invalid mapping after sequence",
   "from": "@perlpunk",

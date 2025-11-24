@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_G5U8: {
+  "id": "G5U8",
   "filename": "G5U8.yaml",
   "name": "Plain dashes in flow sequence",
   "from": "@ingydotnet",

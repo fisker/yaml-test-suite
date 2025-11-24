@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_JEF9: {
+  "id": "JEF9",
   "filename": "JEF9.yaml",
   "name": "Trailing whitespace in streams",
   "from": "@ingydotnet",

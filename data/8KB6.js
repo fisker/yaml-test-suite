@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "8KB6",
   "filename": "8KB6.yaml",
   "name": "Multiline plain flow mapping key without value",
   "from": "@perlpunk",

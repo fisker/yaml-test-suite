@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_3HFZ: {
+  "id": "3HFZ",
   "filename": "3HFZ.yaml",
   "name": "Invalid content after document end marker",
   "from": "@perlpunk",

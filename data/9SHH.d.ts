@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9SHH: {
+  "id": "9SHH",
   "filename": "9SHH.yaml",
   "name": "Spec Example 5.8. Quoted Scalar Indicators",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2773890",

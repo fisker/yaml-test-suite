@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "CQ3W",
   "filename": "CQ3W.yaml",
   "name": "Double quoted string without closing quote",
   "from": "@perlpunk",

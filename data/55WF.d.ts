@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_55WF: {
+  "id": "55WF",
   "filename": "55WF.yaml",
   "name": "Invalid escape in double quoted string",
   "from": "@perlpunk",

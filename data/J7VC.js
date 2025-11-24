@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "J7VC",
   "filename": "J7VC.yaml",
   "name": "Empty Lines Between Mapping Elements",
   "from": "NimYAML tests",

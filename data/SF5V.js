@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "SF5V",
   "filename": "SF5V.yaml",
   "name": "Duplicate YAML directive",
   "from": "@perlpunk",

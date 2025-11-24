@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "7A4E",
   "filename": "7A4E.yaml",
   "name": "Spec Example 7.6. Double Quoted Lines",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2787994",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_ZK9H: {
+  "id": "ZK9H",
   "filename": "ZK9H.yaml",
   "name": "Nested top level flow mapping",
   "from": "@perlpunk",

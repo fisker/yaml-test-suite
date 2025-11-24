@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_NJ66: {
+  "id": "NJ66",
   "filename": "NJ66.yaml",
   "name": "Multiline plain flow mapping key",
   "from": "@perlpunk",

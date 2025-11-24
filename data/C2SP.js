@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "C2SP",
   "filename": "C2SP.yaml",
   "name": "Flow Mapping Key on two lines",
   "from": "@perlpunk",

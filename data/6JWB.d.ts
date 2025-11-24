@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6JWB: {
+  "id": "6JWB",
   "filename": "6JWB.yaml",
   "name": "Tags for Block Objects",
   "from": "NimYAML tests",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_M29M: {
+  "id": "M29M",
   "filename": "M29M.yaml",
   "name": "Literal Block Scalar",
   "from": "NimYAML tests",

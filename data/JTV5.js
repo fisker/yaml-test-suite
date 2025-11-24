@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "JTV5",
   "filename": "JTV5.yaml",
   "name": "Block Mapping with Multiline Scalars",
   "from": "NimYAML tests",

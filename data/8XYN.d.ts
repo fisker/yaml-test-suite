@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_8XYN: {
+  "id": "8XYN",
   "filename": "8XYN.yaml",
   "name": "Anchor with unicode character",
   "from": "https://github.com/yaml/pyyaml/issues/94",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_Q5MG: {
+  "id": "Q5MG",
   "filename": "Q5MG.yaml",
   "name": "Tab at beginning of line followed by a flow mapping",
   "from": "IRC",

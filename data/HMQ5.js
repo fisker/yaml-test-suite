@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "HMQ5",
   "filename": "HMQ5.yaml",
   "name": "Spec Example 6.23. Node Properties",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2783940",

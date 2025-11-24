@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_HMK4: {
+  "id": "HMK4",
   "filename": "HMK4.yaml",
   "name": "Spec Example 2.16. Indentation determines scope",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2761083",

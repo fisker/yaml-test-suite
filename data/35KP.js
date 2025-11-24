@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "35KP",
   "filename": "35KP.yaml",
   "name": "Tags for Root Objects",
   "from": "NimYAML tests",

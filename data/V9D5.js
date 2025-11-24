@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "V9D5",
   "filename": "V9D5.yaml",
   "name": "Spec Example 8.19. Compact Block Mappings",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2799091",

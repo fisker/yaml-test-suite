@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "JY7Z",
   "filename": "JY7Z.yaml",
   "name": "Trailing content that looks like a mapping",
   "from": "@perlpunk",

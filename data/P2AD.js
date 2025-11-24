@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "P2AD",
   "filename": "P2AD.yaml",
   "name": "Spec Example 8.1. Block Scalar Header",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2793888",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_YJV2: {
+  "id": "YJV2",
   "filename": "YJV2.yaml",
   "name": "Dash in flow sequence",
   "from": "@ingydotnet",

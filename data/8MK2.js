@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "8MK2",
   "filename": "8MK2.yaml",
   "name": "Explicit Non-Specific Tag",
   "from": "NimYAML tests",

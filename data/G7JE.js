@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "G7JE",
   "filename": "G7JE.yaml",
   "name": "Multiline implicit keys",
   "from": "@perlpunk",

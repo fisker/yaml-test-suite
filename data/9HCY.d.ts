@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9HCY: {
+  "id": "9HCY",
   "filename": "9HCY.yaml",
   "name": "Need document footer before directives",
   "from": "@ingydotnet",

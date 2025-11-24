@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "9MMA",
   "filename": "9MMA.yaml",
   "name": "Directive by itself with no document",
   "from": "@ingydotnet",

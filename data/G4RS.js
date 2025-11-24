@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "G4RS",
   "filename": "G4RS.yaml",
   "name": "Spec Example 2.17. Quoted Scalars",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2761245",

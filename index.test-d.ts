@@ -1,5 +1,14 @@
-import {expectType} from 'tsd'
+import {expectAssignable, expectType} from 'tsd'
 import yamlTestSuite from './index.js'
 
-expectType<string>(yamlTestSuite[0].name.repeat(1))
-expectType<string>(yamlTestSuite[0].cases[0].yaml[0].repeat(1))
+for (const file of yamlTestSuite) {
+  expectAssignable<string>(file.id)
+  expectAssignable<string>(file.name)
+
+  for (const testCase of file.cases) {
+    expectAssignable<string>(testCase.yaml)
+    if ('fail' in testCase) {
+      expectType<true>(testCase.fail)
+    }
+  }
+}

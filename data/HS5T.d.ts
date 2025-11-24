@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_HS5T: {
+  "id": "HS5T",
   "filename": "HS5T.yaml",
   "name": "Spec Example 7.12. Plain Lines",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2789986",

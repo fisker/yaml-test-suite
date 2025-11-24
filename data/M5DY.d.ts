@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_M5DY: {
+  "id": "M5DY",
   "filename": "M5DY.yaml",
   "name": "Spec Example 2.11. Mapping between Sequences",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2760799",

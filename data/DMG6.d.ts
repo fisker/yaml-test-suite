@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_DMG6: {
+  "id": "DMG6",
   "filename": "DMG6.yaml",
   "name": "Wrong indendation in Map",
   "from": "@perlpunk",

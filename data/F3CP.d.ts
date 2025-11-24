@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_F3CP: {
+  "id": "F3CP",
   "filename": "F3CP.yaml",
   "name": "Nested flow collections on one line",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_X8DW: {
+  "id": "X8DW",
   "filename": "X8DW.yaml",
   "name": "Explicit key and value seperated by comment",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "9J7A",
   "filename": "9J7A.yaml",
   "name": "Simple Mapping Indent",
   "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/indent.tml",

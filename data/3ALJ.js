@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "3ALJ",
   "filename": "3ALJ.yaml",
   "name": "Block Sequence in Block Sequence",
   "from": "NimYAML tests",

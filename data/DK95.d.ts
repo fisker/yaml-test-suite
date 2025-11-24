@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_DK95: {
+  "id": "DK95",
   "filename": "DK95.yaml",
   "name": "Tabs that look like indentation",
   "from": "@ingydotnet",

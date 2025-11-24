@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_AVM7: {
+  "id": "AVM7",
   "filename": "AVM7.yaml",
   "name": "Empty Stream",
   "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/misc.tml",

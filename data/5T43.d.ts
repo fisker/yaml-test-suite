@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_5T43: {
+  "id": "5T43",
   "filename": "5T43.yaml",
   "name": "Colon at the beginning of adjacent flow scalar",
   "from": "@perlpunk",

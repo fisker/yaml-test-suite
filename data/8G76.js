@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "8G76",
   "filename": "8G76.yaml",
   "name": "Spec Example 6.10. Comment Lines",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2780544",

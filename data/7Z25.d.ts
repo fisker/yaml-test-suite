@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_7Z25: {
+  "id": "7Z25",
   "filename": "7Z25.yaml",
   "name": "Bare document after document end marker",
   "from": "@perlpunk",

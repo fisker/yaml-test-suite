@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_3MYT: {
+  "id": "3MYT",
   "filename": "3MYT.yaml",
   "name": "Plain Scalar looking like key, comment, anchor and tag",
   "from": "https://gist.github.com/anonymous/a98d50ce42a59b1e999552bea7a31f57 via @ingydotnet",

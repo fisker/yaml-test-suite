@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_UGM3: {
+  "id": "UGM3",
   "filename": "UGM3.yaml",
   "name": "Spec Example 2.27. Invoice",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2761823",

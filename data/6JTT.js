@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "6JTT",
   "filename": "6JTT.yaml",
   "name": "Flow sequence without closing bracket",
   "from": "@perlpunk",

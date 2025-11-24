@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_K4SU: {
+  "id": "K4SU",
   "filename": "K4SU.yaml",
   "name": "Multiple Entry Block Sequence",
   "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/sequence.tml",

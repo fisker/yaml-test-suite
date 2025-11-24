@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "3HFZ",
   "filename": "3HFZ.yaml",
   "name": "Invalid content after document end marker",
   "from": "@perlpunk",

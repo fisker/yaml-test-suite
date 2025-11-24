@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "33X3",
   "filename": "33X3.yaml",
   "name": "Three explicit integers in a block sequence",
   "from": "IRC",

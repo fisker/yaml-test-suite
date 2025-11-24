@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "Z9M4",
   "filename": "Z9M4.yaml",
   "name": "Spec Example 6.22. Global Tag Prefix",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2783726",

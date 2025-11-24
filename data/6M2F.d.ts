@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6M2F: {
+  "id": "6M2F",
   "filename": "6M2F.yaml",
   "name": "Aliases in Explicit Block Mapping",
   "from": "NimYAML tests",

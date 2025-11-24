@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_T5N4: {
+  "id": "T5N4",
   "filename": "T5N4.yaml",
   "name": "Spec Example 8.7. Literal Scalar [1.3]",
   "from": "M9B4, modified for YAML 1.3",

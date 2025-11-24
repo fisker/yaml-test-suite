@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_93JH: {
+  "id": "93JH",
   "filename": "93JH.yaml",
   "name": "Block Mappings in Block Sequence",
   "from": "NimYAML tests",

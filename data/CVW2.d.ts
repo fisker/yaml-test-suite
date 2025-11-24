@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_CVW2: {
+  "id": "CVW2",
   "filename": "CVW2.yaml",
   "name": "Invalid comment after comma",
   "from": "@perlpunk",

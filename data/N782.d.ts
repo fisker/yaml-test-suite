@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_N782: {
+  "id": "N782",
   "filename": "N782.yaml",
   "name": "Invalid document markers in flow style",
   "from": "NimYAML tests",

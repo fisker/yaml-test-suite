@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "L24T",
   "filename": "L24T.yaml",
   "name": "Trailing line of spaces",
   "from": "@ingydotnet",

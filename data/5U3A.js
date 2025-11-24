@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "5U3A",
   "filename": "5U3A.yaml",
   "name": "Sequence on same Line as Mapping Key",
   "from": "@perlpunk",

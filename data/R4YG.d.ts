@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_R4YG: {
+  "id": "R4YG",
   "filename": "R4YG.yaml",
   "name": "Spec Example 8.2. Block Indentation Indicator",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2794311",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "KSS4",
   "filename": "KSS4.yaml",
   "name": "Scalars on --- line",
   "from": "@perlpunk",

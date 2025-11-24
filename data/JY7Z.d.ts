@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_JY7Z: {
+  "id": "JY7Z",
   "filename": "JY7Z.yaml",
   "name": "Trailing content that looks like a mapping",
   "from": "@perlpunk",

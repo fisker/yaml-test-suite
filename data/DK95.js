@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "DK95",
   "filename": "DK95.yaml",
   "name": "Tabs that look like indentation",
   "from": "@ingydotnet",

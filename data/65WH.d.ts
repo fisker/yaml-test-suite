@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_65WH: {
+  "id": "65WH",
   "filename": "65WH.yaml",
   "name": "Single Entry Block Sequence",
   "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/sequence.tml",

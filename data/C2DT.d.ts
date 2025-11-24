@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_C2DT: {
+  "id": "C2DT",
   "filename": "C2DT.yaml",
   "name": "Spec Example 7.18. Flow Mapping Adjacent Values",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2792073",

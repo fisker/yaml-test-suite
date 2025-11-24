@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "X8DW",
   "filename": "X8DW.yaml",
   "name": "Explicit key and value seperated by comment",
   "from": "@perlpunk",

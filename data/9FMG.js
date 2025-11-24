@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "9FMG",
   "filename": "9FMG.yaml",
   "name": "Multi-level Mapping Indent",
   "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/indent.tml",

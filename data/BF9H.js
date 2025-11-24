@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "BF9H",
   "filename": "BF9H.yaml",
   "name": "Trailing comment in multiline plain scalar",
   "from": "@perlpunk",

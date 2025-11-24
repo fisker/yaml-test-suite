@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9JBA: {
+  "id": "9JBA",
   "filename": "9JBA.yaml",
   "name": "Invalid comment after end of flow sequence",
   "from": "@perlpunk",

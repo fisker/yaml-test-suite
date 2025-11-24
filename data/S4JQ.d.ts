@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_S4JQ: {
+  "id": "S4JQ",
   "filename": "S4JQ.yaml",
   "name": "Spec Example 6.28. Non-Specific Tags",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2785512",

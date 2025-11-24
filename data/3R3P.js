@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "3R3P",
   "filename": "3R3P.yaml",
   "name": "Single block sequence with anchor",
   "from": "@perlpunk",

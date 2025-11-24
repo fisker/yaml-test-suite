@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_58MP: {
+  "id": "58MP",
   "filename": "58MP.yaml",
   "name": "Flow mapping edge cases",
   "from": "@ingydotnet",

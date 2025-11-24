@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "565N",
   "filename": "565N.yaml",
   "name": "Construct Binary",
   "from": "https://github.com/yaml/pyyaml/blob/master/tests/data/construct-binary-py2.data",

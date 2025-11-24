@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "6JQW",
   "filename": "6JQW.yaml",
   "name": "Spec Example 2.13. In literals, newlines are preserved",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2759963",

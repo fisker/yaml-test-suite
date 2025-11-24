@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "6SLA",
   "filename": "6SLA.yaml",
   "name": "Allowed characters in quoted mapping key",
   "from": "@perlpunk",

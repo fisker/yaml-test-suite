@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "55WF",
   "filename": "55WF.yaml",
   "name": "Invalid escape in double quoted string",
   "from": "@perlpunk",

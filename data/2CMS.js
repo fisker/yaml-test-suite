@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "2CMS",
   "filename": "2CMS.yaml",
   "name": "Invalid mapping in plain multiline",
   "from": "@perlpunk",

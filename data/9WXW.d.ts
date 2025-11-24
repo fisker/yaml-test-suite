@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_9WXW: {
+  "id": "9WXW",
   "filename": "9WXW.yaml",
   "name": "Spec Example 6.18. Primary Tag Handle",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2782728",

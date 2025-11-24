@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_BEC7: {
+  "id": "BEC7",
   "filename": "BEC7.yaml",
   "name": "Spec Example 6.14. “YAML” directive",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2781929",

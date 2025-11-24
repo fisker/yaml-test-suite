@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_DWX9: {
+  "id": "DWX9",
   "filename": "DWX9.yaml",
   "name": "Spec Example 8.8. Literal Content",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2796118",

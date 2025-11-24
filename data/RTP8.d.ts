@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_RTP8: {
+  "id": "RTP8",
   "filename": "RTP8.yaml",
   "name": "Spec Example 9.2. Document Markers",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2800866",

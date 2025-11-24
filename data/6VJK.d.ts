@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6VJK: {
+  "id": "6VJK",
   "filename": "6VJK.yaml",
   "name": "Spec Example 2.15. Folded newlines are preserved for \"more indented\" and blank lines",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2761056",

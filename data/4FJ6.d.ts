@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_4FJ6: {
+  "id": "4FJ6",
   "filename": "4FJ6.yaml",
   "name": "Nested implicit complex keys",
   "from": "@perlpunk",

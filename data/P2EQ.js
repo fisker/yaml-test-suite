@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "P2EQ",
   "filename": "P2EQ.yaml",
   "name": "Invalid sequene item on same line as previous item",
   "from": "@perlpunk",

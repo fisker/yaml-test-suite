@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6CK3: {
+  "id": "6CK3",
   "filename": "6CK3.yaml",
   "name": "Spec Example 6.26. Tag Shorthands",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2785009",

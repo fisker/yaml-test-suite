@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "S4T7",
   "filename": "S4T7.yaml",
   "name": "Document with footer",
   "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/footer.tml",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "DMG6",
   "filename": "DMG6.yaml",
   "name": "Wrong indendation in Map",
   "from": "@perlpunk",

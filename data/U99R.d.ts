@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_U99R: {
+  "id": "U99R",
   "filename": "U99R.yaml",
   "name": "Invalid comma in tag",
   "from": "@perlpunk",

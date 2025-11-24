@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_CT4Q: {
+  "id": "CT4Q",
   "filename": "CT4Q.yaml",
   "name": "Spec Example 7.20. Single Pair Explicit Entry",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2792424",

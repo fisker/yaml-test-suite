@@ -1,4 +1,6 @@
 import assert from 'node:assert'
+import fs from 'node:fs/promises'
+import path from 'node:path'
 import {inspect} from 'node:util'
 import {outdent} from 'outdent'
 import {parse} from 'yaml'
@@ -72,6 +74,7 @@ const unescape = (text) =>
     .replaceAll('⇔', '\u{FEFF}')
 
 const FIXTURE_FILENAME_PREFIX = 'yaml-test-suite-main/src/'
+const FIXTURE_EXTENSION = '.yaml'
 
 function* getData() {
   for (const file of readZipFile(
@@ -84,6 +87,10 @@ function* getData() {
       /^[0-9A-Z]{4}\.yaml$/.test(filename),
       `Unexpected test file: ${file.name}`,
     )
+
+    const extension = path.extname(filename)
+    assert.equal(extension, FIXTURE_EXTENSION)
+    const id = path.basename(filename, extension)
 
     const text = file.data.toString()
     const documents = parse(text)
@@ -105,6 +112,7 @@ function* getData() {
     }
 
     yield {
+      id,
       filename,
       name: firstDocument.name,
       from: firstDocument.from,
@@ -129,37 +137,34 @@ function* getData() {
   }
 }
 
-const data = Array.from(getData(), (file) => {
-  const filenameBase = file.filename.replace('.yaml', '')
-  return {
-    filenameBase,
-    data: file,
-  }
-})
+await fs.rm(DATA_DIRECTORY, {force: true, recursive: true})
+await fs.mkdir(DATA_DIRECTORY, {recursive: true})
+
+const data = [...getData()]
 
 // TODO: Use `'${name}'` when we drop support for Node.js v14
 const toSpecifier = (name) => `$${name}`
 
 await Promise.all([
-  ...data.map(({filenameBase, data}) => {
-    const stringifiedData = JSON.stringify(data, undefined, 2)
+  ...data.map((file) => {
+    const stringifiedData = JSON.stringify(file, undefined, 2)
     assert.equal(
       unescape(stringifiedData),
       stringifiedData,
-      `Unexpected escaped characters in ${data.filename}`,
+      `Unexpected escaped characters in ${file.filename}`,
     )
 
     return [
       writeTextFile(
-        new URL(`${filenameBase}.js`, DATA_DIRECTORY),
+        new URL(`${file.id}.js`, DATA_DIRECTORY),
         `export default ${stringifiedData}`,
       ),
       writeTextFile(
-        new URL(`${filenameBase}.d.ts`, DATA_DIRECTORY),
+        new URL(`${file.id}.d.ts`, DATA_DIRECTORY),
         outdent`
-          declare const Test_${filenameBase}: ${stringifiedData}
+          declare const Test_${file.id}: ${stringifiedData}
 
-          export default Test_${filenameBase}
+          export default Test_${file.id}
         `,
       ),
     ]
@@ -169,8 +174,8 @@ await Promise.all([
     new URL('./index.d.ts', DATA_DIRECTORY),
     data
       .map(
-        ({filenameBase}) =>
-          `export type {default as ${toSpecifier(filenameBase)}} from './${filenameBase}.js'`,
+        (file) =>
+          `export type {default as ${toSpecifier(file.id)}} from './${file.id}.js'`,
       )
       .join('\n'),
   ),
@@ -179,8 +184,8 @@ await Promise.all([
     new URL('./index.js', DATA_DIRECTORY),
     data
       .map(
-        ({filenameBase}) =>
-          `export {default as ${toSpecifier(filenameBase)}} from './${filenameBase}.js'`,
+        (file) =>
+          `export {default as ${toSpecifier(file.id)}} from './${file.id}.js'`,
       )
       .join('\n'),
   ),
@@ -189,11 +194,11 @@ await Promise.all([
     new URL('../index.d.ts', import.meta.url),
     outdent`
       import {
-      ${data.map(({filenameBase}) => `  ${toSpecifier(filenameBase)},`).join('\n')}
+      ${data.map((file) => `  ${toSpecifier(file.id)},`).join('\n')}
       } from './data/index.js'
 
       declare const Suite: readonly [
-      ${data.map(({filenameBase}) => `  typeof ${toSpecifier(filenameBase)},`).join('\n')}
+      ${data.map((file) => `  typeof ${toSpecifier(file.id)},`).join('\n')}
       ]
 
       export default Suite

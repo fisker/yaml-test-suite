@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "D88J",
   "filename": "D88J.yaml",
   "name": "Flow Sequence in Block Mapping",
   "from": "NimYAML tests",

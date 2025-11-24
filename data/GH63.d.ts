@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_GH63: {
+  "id": "GH63",
   "filename": "GH63.yaml",
   "name": "Mixed Block Mapping (explicit to implicit)",
   "from": "NimYAML tests",

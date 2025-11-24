@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_H3Z8: {
+  "id": "H3Z8",
   "filename": "H3Z8.yaml",
   "name": "Literal unicode",
   "from": "@perlpunk",

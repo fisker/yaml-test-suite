@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "Z67P",
   "filename": "Z67P.yaml",
   "name": "Spec Example 8.21. Block Scalar Nodes [1.3]",
   "from": "M5C3, modified for YAML 1.3",

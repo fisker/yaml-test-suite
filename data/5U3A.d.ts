@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_5U3A: {
+  "id": "5U3A",
   "filename": "5U3A.yaml",
   "name": "Sequence on same Line as Mapping Key",
   "from": "@perlpunk",

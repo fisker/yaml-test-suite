@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "M7A3",
   "filename": "M7A3.yaml",
   "name": "Spec Example 9.3. Bare Documents",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2801226",

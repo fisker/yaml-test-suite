@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6KGN: {
+  "id": "6KGN",
   "filename": "6KGN.yaml",
   "name": "Anchor for empty node",
   "from": "https://github.com/nodeca/js-yaml/issues/301",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_4V8U: {
+  "id": "4V8U",
   "filename": "4V8U.yaml",
   "name": "Plain scalar with backslashes",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "UT92",
   "filename": "UT92.yaml",
   "name": "Spec Example 9.4. Explicit Documents",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2801448",

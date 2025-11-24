@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "H7TQ",
   "filename": "H7TQ.yaml",
   "name": "Extra words on %YAML directive",
   "from": "@ingydotnet",

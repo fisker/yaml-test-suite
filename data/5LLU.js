@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "5LLU",
   "filename": "5LLU.yaml",
   "name": "Block scalar with wrong indented line after spaces only",
   "from": "@perlpunk",

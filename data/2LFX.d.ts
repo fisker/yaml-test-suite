@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_2LFX: {
+  "id": "2LFX",
   "filename": "2LFX.yaml",
   "name": "Spec Example 6.13. Reserved Directives [1.3]",
   "from": "6LVF, modified for YAML 1.3",

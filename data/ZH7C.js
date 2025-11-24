@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "ZH7C",
   "filename": "ZH7C.yaml",
   "name": "Anchors in Mapping",
   "from": "NimYAML tests",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "S98Z",
   "filename": "S98Z.yaml",
   "name": "Block scalar with more spaces than first content line",
   "from": "@perlpunk",

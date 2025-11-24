@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "EHF6",
   "filename": "EHF6.yaml",
   "name": "Tags for Flow Objects",
   "from": "NimYAML tests",

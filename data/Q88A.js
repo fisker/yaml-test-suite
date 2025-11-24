@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "Q88A",
   "filename": "Q88A.yaml",
   "name": "Spec Example 7.23. Flow Content",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2793163",

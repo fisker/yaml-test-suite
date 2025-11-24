@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_QLJ7: {
+  "id": "QLJ7",
   "filename": "QLJ7.yaml",
   "name": "Tag shorthand used in documents but only defined in the first",
   "from": "IRC",

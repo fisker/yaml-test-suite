@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_D9TU: {
+  "id": "D9TU",
   "filename": "D9TU.yaml",
   "name": "Single Pair Block Mapping",
   "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/mapping.tml",

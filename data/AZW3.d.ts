@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_AZW3: {
+  "id": "AZW3",
   "filename": "AZW3.yaml",
   "name": "Lookahead test cases",
   "from": "NimYAML tests",

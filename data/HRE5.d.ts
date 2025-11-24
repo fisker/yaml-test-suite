@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_HRE5: {
+  "id": "HRE5",
   "filename": "HRE5.yaml",
   "name": "Double quoted scalar with escaped single quote",
   "from": "https://github.com/yaml/libyaml/issues/68",

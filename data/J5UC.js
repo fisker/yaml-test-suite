@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "J5UC",
   "filename": "J5UC.yaml",
   "name": "Multiple Pair Block Mapping",
   "from": "https://github.com/ingydotnet/yaml-pegex-pm/blob/master/test/mapping.tml",

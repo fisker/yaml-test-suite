@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_U9NS: {
+  "id": "U9NS",
   "filename": "U9NS.yaml",
   "name": "Spec Example 2.8. Play by Play Feed from a Game",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2760519",

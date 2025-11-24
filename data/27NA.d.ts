@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_27NA: {
+  "id": "27NA",
   "filename": "27NA.yaml",
   "name": "Spec Example 5.9. Directive Indicator",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2774058",

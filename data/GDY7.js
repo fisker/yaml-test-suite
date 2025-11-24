@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "GDY7",
   "filename": "GDY7.yaml",
   "name": "Comment that looks like a mapping key",
   "from": "@perlpunk",

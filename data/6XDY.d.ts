@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_6XDY: {
+  "id": "6XDY",
   "filename": "6XDY.yaml",
   "name": "Two document start markers",
   "from": "@perlpunk",

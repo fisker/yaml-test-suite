@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_ZF4X: {
+  "id": "ZF4X",
   "filename": "ZF4X.yaml",
   "name": "Spec Example 2.6. Mapping of Mappings",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2760372",

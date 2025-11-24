@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "Y79Y",
   "filename": "Y79Y.yaml",
   "name": "Tabs in various contexts",
   "from": "@ingydotnet",

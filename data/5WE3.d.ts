@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_5WE3: {
+  "id": "5WE3",
   "filename": "5WE3.yaml",
   "name": "Spec Example 8.17. Explicit Block Mapping Entries",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2798425",

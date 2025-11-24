@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "G992",
   "filename": "G992.yaml",
   "name": "Spec Example 8.9. Folded Scalar",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2796371",

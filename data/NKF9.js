@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "NKF9",
   "filename": "NKF9.yaml",
   "name": "Empty keys in block and flow mapping",
   "from": "@perlpunk",

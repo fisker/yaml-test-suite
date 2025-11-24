@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_7TMG: {
+  "id": "7TMG",
   "filename": "7TMG.yaml",
   "name": "Comment in flow sequence before comma",
   "from": "@perlpunk",

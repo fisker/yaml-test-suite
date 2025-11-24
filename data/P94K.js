@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "P94K",
   "filename": "P94K.yaml",
   "name": "Spec Example 6.11. Multi-Line Comments",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2780696",

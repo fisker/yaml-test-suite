@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_5MUD: {
+  "id": "5MUD",
   "filename": "5MUD.yaml",
   "name": "Colon and adjacent value on next line",
   "from": "@perlpunk",

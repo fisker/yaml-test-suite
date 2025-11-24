@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_E76Z: {
+  "id": "E76Z",
   "filename": "E76Z.yaml",
   "name": "Aliases in Implicit Block Mapping",
   "from": "NimYAML tests",

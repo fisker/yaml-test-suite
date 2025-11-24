@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "CVW2",
   "filename": "CVW2.yaml",
   "name": "Invalid comment after comma",
   "from": "@perlpunk",

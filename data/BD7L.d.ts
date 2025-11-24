@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_BD7L: {
+  "id": "BD7L",
   "filename": "BD7L.yaml",
   "name": "Invalid mapping after sequence",
   "from": "@perlpunk",

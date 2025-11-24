@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "DE56",
   "filename": "DE56.yaml",
   "name": "Trailing tabs in double quoted",
   "from": "@ingydotnet",

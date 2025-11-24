@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "F8F9",
   "filename": "F8F9.yaml",
   "name": "Spec Example 8.5. Chomping Trailing Lines",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2795435",

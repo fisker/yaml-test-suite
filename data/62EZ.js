@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "62EZ",
   "filename": "62EZ.yaml",
   "name": "Invalid block mapping key on same line as previous key",
   "from": "@perlpunk",

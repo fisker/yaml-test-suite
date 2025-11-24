@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "E76Z",
   "filename": "E76Z.yaml",
   "name": "Aliases in Implicit Block Mapping",
   "from": "NimYAML tests",

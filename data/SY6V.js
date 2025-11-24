@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "SY6V",
   "filename": "SY6V.yaml",
   "name": "Anchor before sequence entry on same line",
   "from": "@perlpunk",

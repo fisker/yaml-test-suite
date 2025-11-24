@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "X4QW",
   "filename": "X4QW.yaml",
   "name": "Comment without whitespace after block scalar indicator",
   "from": "@perlpunk",

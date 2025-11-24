@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "VJP3",
   "filename": "VJP3.yaml",
   "name": "Flow collections over many lines",
   "from": "@ingydotnet",

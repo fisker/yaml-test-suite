@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_R52L: {
+  "id": "R52L",
   "filename": "R52L.yaml",
   "name": "Nested flow mapping sequence and mappings",
   "from": "@perlpunk",

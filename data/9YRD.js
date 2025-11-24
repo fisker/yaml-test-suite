@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "9YRD",
   "filename": "9YRD.yaml",
   "name": "Multiline Scalar at Top Level",
   "from": "NimYAML tests",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "AB8U",
   "filename": "AB8U.yaml",
   "name": "Sequence entry that looks like two with wrong indentation",
   "from": "@perlpunk",

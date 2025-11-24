@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "3RLN",
   "filename": "3RLN.yaml",
   "name": "Leading tabs in double quoted",
   "from": "@ingydotnet",

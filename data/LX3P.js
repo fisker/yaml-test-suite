@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "LX3P",
   "filename": "LX3P.yaml",
   "name": "Implicit Flow Mapping Key on one line",
   "from": "@perlpunk",

@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "RHX7",
   "filename": "RHX7.yaml",
   "name": "YAML directive without document end marker",
   "from": "@perlpunk",

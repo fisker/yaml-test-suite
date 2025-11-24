@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_TE2A: {
+  "id": "TE2A",
   "filename": "TE2A.yaml",
   "name": "Spec Example 8.16. Block Mappings",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2798147",

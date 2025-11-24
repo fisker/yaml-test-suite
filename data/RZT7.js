@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "RZT7",
   "filename": "RZT7.yaml",
   "name": "Spec Example 2.28. Log File",
   "from": "http://www.yaml.org/spec/1.2/spec.html#id2761866",

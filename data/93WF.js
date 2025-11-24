@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "93WF",
   "filename": "93WF.yaml",
   "name": "Spec Example 6.6. Line Folding [1.3]",
   "from": "K527, modified for YAML 1.3",

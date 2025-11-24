@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_QT73: {
+  "id": "QT73",
   "filename": "QT73.yaml",
   "name": "Comment and document-end marker",
   "from": "@perlpunk",

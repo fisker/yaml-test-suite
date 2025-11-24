@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "H3Z8",
   "filename": "H3Z8.yaml",
   "name": "Literal unicode",
   "from": "@perlpunk",

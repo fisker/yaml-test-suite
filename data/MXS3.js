@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 export default {
+  "id": "MXS3",
   "filename": "MXS3.yaml",
   "name": "Flow Mapping in Block Sequence",
   "from": "NimYAML tests",

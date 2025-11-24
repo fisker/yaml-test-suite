@@ -1,6 +1,7 @@
 // Generated file, do NOT edit
 
 declare const Test_82AN: {
+  "id": "82AN",
   "filename": "82AN.yaml",
   "name": "Three dashes and content without space",
   "from": "@perlpunk",
