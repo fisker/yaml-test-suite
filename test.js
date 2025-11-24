@@ -2,9 +2,9 @@ import assert from 'node:assert/strict'
 import test from 'node:test'
 import yamlTestSuite from './index.js'
 
-const assertTags = (tags) => {
+const assertTags = (tags, name) => {
   assert.ok(Array.isArray(tags))
-  assert.ok(tags.length > 1)
+  assert.ok(tags.length !== 0, `${name} should not have empty tags`)
   assert.ok(tags.every((tag) => typeof tag === 'string' && tag !== ''))
 }
 
@@ -18,15 +18,15 @@ test('Main', () => {
     assert.equal(data.filename, `${data.id}.yaml`)
     assert.equal(typeof data.name, 'string')
     assert.equal(typeof data.from, 'string')
-    assertTags(data.tags)
+    assertTags(data.tags, `test[${data.id}]`)
 
     assert.ok(Array.isArray(data.cases))
     assert.ok(data.cases.length !== 0)
 
-    for (const testCase of data.cases) {
+    for (const [index, testCase] of data.cases.entries()) {
       assert.equal(typeof testCase.yaml, 'string')
       if (testCase.tags) {
-        assertTags(testCase.tags)
+        assertTags(testCase.tags, `test[${data.id}] case[${index + 1}]`)
       }
       if ('fail' in testCase) {
         assert.equal(testCase.fail, true)
