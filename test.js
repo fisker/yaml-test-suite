@@ -4,6 +4,7 @@ import yamlTestSuite from './index.js'
 
 const assertTags = (tags) => {
   assert.ok(Array.isArray(tags))
+  assert.ok(tags.length > 1)
   assert.ok(tags.every((tag) => typeof tag === 'string' && tag !== ''))
 }
 
