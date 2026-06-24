@@ -12,9 +12,10 @@ concurrency:
 
 jobs:
   update:
-    if: github.event_name != 'schedule' || github.repository == 'fisker/playground'
+    if: github.event_name != 'schedule' || github.repository == 'fisker/yaml-test-suite'
     permissions:
       contents: write
       pull-requests: write
+      actions: write
     name: Run update
     uses: fisker/shared-workflows/.github/workflows/scheduled-task.yml@main
